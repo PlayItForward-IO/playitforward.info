@@ -8,10 +8,10 @@
 
 import { Component, Input } from '@angular/core';
 import { Router } from '@angular/router';
-import { MenuNode } from '@fullerstack/ngx-menu';
+import { MenuNode } from '@playitfoward/ngx-menu';
 
 @Component({
-  selector: 'fullerstack-menu-node',
+  selector: 'playitfoward-menu-node',
   templateUrl: './menu-node.component.html',
   styleUrls: ['./menu-node.component.scss'],
 })

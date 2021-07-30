@@ -8,21 +8,21 @@
 
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { ApiConstants } from '@fullerstack/agx-dto';
-import { AuthService } from '@fullerstack/ngx-auth';
-import { SystemStatus } from '@fullerstack/ngx-gql/schema';
-import { I18nService, i18nExtractor as _ } from '@fullerstack/ngx-i18n';
+import { ApiConstants } from '@playitfoward/agx-dto';
+import { AuthService } from '@playitfoward/ngx-auth';
+import { SystemStatus } from '@playitfoward/ngx-gql/schema';
+import { I18nService, i18nExtractor as _ } from '@playitfoward/ngx-i18n';
 import {
   ConfirmationDialogService,
   ProgressService,
   ValidationService,
-} from '@fullerstack/ngx-shared';
-import { SystemService } from '@fullerstack/ngx-system';
-import { UserService, UserState } from '@fullerstack/ngx-user';
+} from '@playitfoward/ngx-shared';
+import { SystemService } from '@playitfoward/ngx-system';
+import { UserService, UserState } from '@playitfoward/ngx-user';
 import { Observable, Subject, distinctUntilChanged, filter, takeUntil, tap } from 'rxjs';
 
 @Component({
-  selector: 'fullerstack-contact',
+  selector: 'playitfoward-contact',
   templateUrl: './contact-us.component.html',
   styleUrls: ['./contact-us.component.scss'],
   providers: [ConfirmationDialogService],

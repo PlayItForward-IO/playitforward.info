@@ -6,10 +6,10 @@
  * that can be found at http://neekware.com/license/PRI.html
  */
 
-import { I18nService } from '@fullerstack/nsx-i18n';
-import { MailerService } from '@fullerstack/nsx-mailer';
-import { PrismaService } from '@fullerstack/nsx-prisma';
-import { getMockPrismaService } from '@fullerstack/nsx-prisma/mock';
+import { I18nService } from '@playitfoward/nsx-i18n';
+import { MailerService } from '@playitfoward/nsx-mailer';
+import { PrismaService } from '@playitfoward/nsx-prisma';
+import { getMockPrismaService } from '@playitfoward/nsx-prisma/mock';
 import { ConfigService } from '@nestjs/config';
 import { Test } from '@nestjs/testing';
 

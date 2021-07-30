@@ -14,7 +14,7 @@ import * as glob from 'glob';
 
 require('dotenv').config();
 
-export const projName = 'fullerstack';
+export const projName = 'playitfoward';
 export const projDir = path.resolve(__dirname, '../..');
 export const coverageDir = path.resolve(path.join(projDir, 'coverage'));
 export const distDir = path.resolve(path.join(projDir, 'dist'));

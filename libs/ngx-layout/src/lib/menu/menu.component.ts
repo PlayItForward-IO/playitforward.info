@@ -14,8 +14,8 @@ import {
   OnInit,
 } from '@angular/core';
 import { NavigationEnd, Router } from '@angular/router';
-import { AuthService } from '@fullerstack/ngx-auth';
-import { MenuItem, MenuNode } from '@fullerstack/ngx-menu';
+import { AuthService } from '@playitfoward/ngx-auth';
+import { MenuItem, MenuNode } from '@playitfoward/ngx-menu';
 import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
 
@@ -23,7 +23,7 @@ import { LayoutService } from '../layout.service';
 import { layoutMenuTree } from './menu.default';
 
 @Component({
-  selector: 'fullerstack-menu',
+  selector: 'playitfoward-menu',
   templateUrl: './menu.component.html',
   styleUrls: ['./menu.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,

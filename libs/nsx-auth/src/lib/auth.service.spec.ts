@@ -6,8 +6,8 @@
  * that can be found at http://neekware.com/license/PRI.html
  */
 
-import { PrismaService } from '@fullerstack/nsx-prisma';
-import { getMockPrismaService } from '@fullerstack/nsx-prisma/mock';
+import { PrismaService } from '@playitfoward/nsx-prisma';
+import { getMockPrismaService } from '@playitfoward/nsx-prisma/mock';
 import { ConfigService } from '@nestjs/config';
 import { Test } from '@nestjs/testing';
 

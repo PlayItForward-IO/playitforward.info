@@ -1,8 +1,8 @@
 {
   "version": "0.0.2",
-  "name": "@fullerstack/ngx-subify",
+  "name": "@playitfoward/ngx-subify",
   "description": "A Subscription Management Library for Angular",
-  "homepage": "https://github.com/neekware/fullerstack/blob/main/libs/ngx-subify/README.md",
+  "homepage": "https://github.com/neekware/playitfoward/blob/main/libs/ngx-subify/README.md",
   "keywords": [
     "ng",
     "angular",

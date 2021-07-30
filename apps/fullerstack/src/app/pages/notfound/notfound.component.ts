@@ -9,7 +9,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'fullerstack-notfound',
+  selector: 'playitfoward-notfound',
   templateUrl: './notfound.component.html',
   styleUrls: ['./notfound.component.scss'],
 })

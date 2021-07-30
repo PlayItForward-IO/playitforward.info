@@ -8,18 +8,18 @@
 
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { AuthService } from '@fullerstack/ngx-auth';
-import { i18nExtractor as _ } from '@fullerstack/ngx-i18n';
+import { AuthService } from '@playitfoward/ngx-auth';
+import { i18nExtractor as _ } from '@playitfoward/ngx-i18n';
 import {
   ConfirmationDialogService,
   ProgressService,
   ValidationService,
-} from '@fullerstack/ngx-shared';
-import { UserService, UserState } from '@fullerstack/ngx-user';
+} from '@playitfoward/ngx-shared';
+import { UserService, UserState } from '@playitfoward/ngx-user';
 import { Observable, Subject, debounceTime, takeUntil } from 'rxjs';
 
 @Component({
-  selector: 'fullerstack-email-change-request',
+  selector: 'playitfoward-email-change-request',
   templateUrl: './email-change-request.component.html',
   styleUrls: ['./email-change-request.component.scss'],
   providers: [ConfirmationDialogService],

@@ -1,4 +1,4 @@
-# @fullerstack/ngx-gtag <img style="margin-bottom: -6px" width="30" src="../../libs/agx-assets/src/lib/images/tech/fullerstack-x250.png">
+# @playitfoward/ngx-gtag <img style="margin-bottom: -6px" width="30" src="../../libs/agx-assets/src/lib/images/tech/playitfoward-x250.png">
 
 **A simple gTag module for Angular applications**
 
@@ -14,23 +14,23 @@
 Tracking application page view and events for the purpose of monitoring trends and recalibrating your application is great.
 This library helps you achieving just that via Google's Analytics.
 
-**@fullerstack/ngx-gtag** attempts to streamline the analytics of your application, while promoting DRY **DRY**.
+**@playitfoward/ngx-gtag** attempts to streamline the analytics of your application, while promoting DRY **DRY**.
 
 # How to install
 
-    npm i @fullerstack/ngx-gtag |OR| yarn add @fullerstack/ngx-gtag
+    npm i @playitfoward/ngx-gtag |OR| yarn add @playitfoward/ngx-gtag
 
 # How to use
 
 ```typescript
 // In your environment{prod,staging}.ts
 
-import { ApplicationConfig } from '@fullerstack/ngx-config';
-import { LogLevel } from '@fullerstack/ngx-logger';
+import { ApplicationConfig } from '@playitfoward/ngx-config';
+import { LogLevel } from '@playitfoward/ngx-logger';
 
 export const environment: ApplicationConfig = {
   // app name
-  appName: '@fullerstack/ngx-gtag',
+  appName: '@playitfoward/ngx-gtag',
   production: true,
 
   log: {
@@ -51,9 +51,9 @@ export const environment: ApplicationConfig = {
 ```typescript
 // In your app.module.ts
 
-import { CfgModule } from '@fullerstack/ngx-config';
-import { LoggerModule } from '@fullerstack/ngx-logger';
-import { GTagModule } from '@fullerstack/ngx-gtag';
+import { CfgModule } from '@playitfoward/ngx-config';
+import { LoggerModule } from '@playitfoward/ngx-logger';
+import { GTagModule } from '@playitfoward/ngx-gtag';
 
 import { environment } from '../environments/environment';
 
@@ -77,16 +77,16 @@ import { Component } from '@angular/core';
 import {
   ConfigService,
   DefaultApplicationConfig,
-} from '@fullerstack/ngx-config';
-import { LogService } from '@fullerstack/ngx-logger';
-import { GTagService } from '@fullerstack/ngx-gtag';
+} from '@playitfoward/ngx-config';
+import { LogService } from '@playitfoward/ngx-logger';
+import { GTagService } from '@playitfoward/ngx-gtag';
 
 @Component({
-  selector: 'fullerstack-root',
+  selector: 'playitfoward-root',
   template: `<h1>Welcome to {{ title }}!</h1>`,
 })
 export class AppComponent {
-  title = 'Fullerstack';
+  title = 'PlayItForward';
   constructor(
     readonly config: ConfigService,
     readonly logger: LogService,
@@ -119,11 +119,11 @@ export class AppComponent {
 ```typescript
 // In your environment{prod,staging}.ts
 
-import { ApplicationConfig, TargetPlatform } from '@fullerstack/ngx-config';
-import { LogLevel } from '@fullerstack/ngx-logger';
+import { ApplicationConfig, TargetPlatform } from '@playitfoward/ngx-config';
+import { LogLevel } from '@playitfoward/ngx-logger';
 
 export const environment: ApplicationConfig = {
-  appName: '@fullerstack/ngx-gtag',
+  appName: '@playitfoward/ngx-gtag',
   // ...
   gtag: {
     // ability to disable tracking (ex; dev / staging mode)
@@ -141,7 +141,7 @@ export const environment: ApplicationConfig = {
 tagger.trackPageView({
   page_path: '/',
   page_title: 'Home Page',
-  page_location: 'http://fullerstack.net'
+  page_location: 'http://playitfoward.net'
 });
 
 // or with default options
@@ -158,7 +158,7 @@ const routes: Routes = [
 
 # License
 
-Released under a ([MIT](https://raw.githubusercontent.com/neekware/fullerstack/main/LICENSE)) license.
+Released under a ([MIT](https://raw.githubusercontent.com/neekware/playitfoward/main/LICENSE)) license.
 
 # Version
 
@@ -168,11 +168,11 @@ X.Y.Z Version
     `MINOR` version -- adding functionality in a backwards-compatible manner
     `PATCH` version -- making backwards-compatible bug fixes
 
-[status-image]: https://github.com/neekware/fullerstack/actions/workflows/ci.yml/badge.svg
-[status-link]: https://github.com/neekware/fullerstack/actions/workflows/ci.yml
-[version-image]: https://img.shields.io/npm/v/@fullerstack/ngx-gtag.svg
-[version-link]: https://www.npmjs.com/package/@fullerstack/ngx-gtag
-[coverage-image]: https://coveralls.io/repos/neekware/fullerstack/badge.svg
-[coverage-link]: https://coveralls.io/r/neekware/fullerstack
-[download-image]: https://img.shields.io/npm/dm/@fullerstack/ngx-gtag.svg
-[download-link]: https://www.npmjs.com/package/@fullerstack/ngx-gtag
+[status-image]: https://github.com/neekware/playitfoward/actions/workflows/ci.yml/badge.svg
+[status-link]: https://github.com/neekware/playitfoward/actions/workflows/ci.yml
+[version-image]: https://img.shields.io/npm/v/@playitfoward/ngx-gtag.svg
+[version-link]: https://www.npmjs.com/package/@playitfoward/ngx-gtag
+[coverage-image]: https://coveralls.io/repos/neekware/playitfoward/badge.svg
+[coverage-link]: https://coveralls.io/r/neekware/playitfoward
+[download-image]: https://img.shields.io/npm/dm/@playitfoward/ngx-gtag.svg
+[download-link]: https://www.npmjs.com/package/@playitfoward/ngx-gtag

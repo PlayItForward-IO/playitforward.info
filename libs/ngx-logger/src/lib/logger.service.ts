@@ -13,7 +13,7 @@ import {
   ApplicationConfig,
   ConfigService,
   DefaultApplicationConfig,
-} from '@fullerstack/ngx-config';
+} from '@playitfoward/ngx-config';
 import { merge as ldNestedMerge } from 'lodash-es';
 import { DeepReadonly } from 'ts-essentials';
 

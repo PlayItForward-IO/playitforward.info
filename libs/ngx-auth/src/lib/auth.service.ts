@@ -9,13 +9,13 @@
 import { Injectable, OnDestroy } from '@angular/core';
 import { AbstractControl, AsyncValidatorFn, ValidationErrors } from '@angular/forms';
 import { Router } from '@angular/router';
-import { JwtDto } from '@fullerstack/agx-dto';
+import { JwtDto } from '@playitfoward/agx-dto';
 import {
   ApplicationConfig,
   ConfigService,
   DefaultApplicationConfig,
-} from '@fullerstack/ngx-config';
-import { GqlErrorsHandler, GqlService } from '@fullerstack/ngx-gql';
+} from '@playitfoward/ngx-config';
+import { GqlErrorsHandler, GqlService } from '@playitfoward/ngx-gql';
 import {
   AuthEmailChangePerformMutation,
   AuthEmailChangeRequestMutation,
@@ -30,7 +30,7 @@ import {
   AuthUserLogoutMutation,
   AuthUserSignupMutation,
   AuthUserVerifyMutation,
-} from '@fullerstack/ngx-gql/operations';
+} from '@playitfoward/ngx-gql/operations';
 import {
   AuthEmailChangePerformInput,
   AuthEmailChangeRequestInput,
@@ -45,12 +45,12 @@ import {
   AuthUserCredentialsInput,
   AuthUserSignupInput,
   AuthUserVerifyInput,
-} from '@fullerstack/ngx-gql/schema';
-import { i18nExtractor as _ } from '@fullerstack/ngx-i18n';
-import { JwtService } from '@fullerstack/ngx-jwt';
-import { LogLevel, LoggerService } from '@fullerstack/ngx-logger';
-import { MsgService } from '@fullerstack/ngx-msg';
-import { StoreService } from '@fullerstack/ngx-store';
+} from '@playitfoward/ngx-gql/schema';
+import { i18nExtractor as _ } from '@playitfoward/ngx-i18n';
+import { JwtService } from '@playitfoward/ngx-jwt';
+import { LogLevel, LoggerService } from '@playitfoward/ngx-logger';
+import { MsgService } from '@playitfoward/ngx-msg';
+import { StoreService } from '@playitfoward/ngx-store';
 import { cloneDeep, merge as ldNestedMerge } from 'lodash-es';
 import { Observable, Subject, of, timer } from 'rxjs';
 import { catchError, first, map, switchMap, takeUntil } from 'rxjs/operators';

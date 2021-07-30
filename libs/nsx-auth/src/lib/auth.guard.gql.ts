@@ -6,7 +6,7 @@
  * that can be found at http://neekware.com/license/PRI.html
  */
 
-import { ApiError, JwtDto } from '@fullerstack/agx-dto';
+import { ApiError, JwtDto } from '@playitfoward/agx-dto';
 import {
   BadRequestException,
   ExecutionContext,

@@ -8,20 +8,20 @@
 
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { ApiConstants } from '@fullerstack/agx-dto';
-import { tokenizeFullName, tryGet } from '@fullerstack/agx-util';
-import { AuthService } from '@fullerstack/ngx-auth';
-import { ConfigService } from '@fullerstack/ngx-config';
-import { I18nService, i18nExtractor as _ } from '@fullerstack/ngx-i18n';
+import { ApiConstants } from '@playitfoward/agx-dto';
+import { tokenizeFullName, tryGet } from '@playitfoward/agx-util';
+import { AuthService } from '@playitfoward/ngx-auth';
+import { ConfigService } from '@playitfoward/ngx-config';
+import { I18nService, i18nExtractor as _ } from '@playitfoward/ngx-i18n';
 import {
   ConfirmationDialogService,
   ProgressService,
   ValidationService,
-} from '@fullerstack/ngx-shared';
+} from '@playitfoward/ngx-shared';
 import { Subject, distinctUntilChanged, takeUntil } from 'rxjs';
 
 @Component({
-  selector: 'fullerstack-signup',
+  selector: 'playitfoward-signup',
   templateUrl: './signup.component.html',
   styleUrls: ['./signup.component.scss'],
   providers: [ConfirmationDialogService],

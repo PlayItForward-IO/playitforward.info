@@ -7,11 +7,11 @@
  */
 
 import { HTTP_INTERCEPTORS } from '@angular/common/http';
-import { AuthInterceptor } from '@fullerstack/ngx-auth';
-import { CachifyInterceptor } from '@fullerstack/ngx-cachify';
-import { GqlInterceptor } from '@fullerstack/ngx-gql';
-import { I18nInterceptor } from '@fullerstack/ngx-i18n';
-import { LoggerInterceptor, ProgressInterceptor } from '@fullerstack/ngx-shared';
+import { AuthInterceptor } from '@playitfoward/ngx-auth';
+import { CachifyInterceptor } from '@playitfoward/ngx-cachify';
+import { GqlInterceptor } from '@playitfoward/ngx-gql';
+import { I18nInterceptor } from '@playitfoward/ngx-i18n';
+import { LoggerInterceptor, ProgressInterceptor } from '@playitfoward/ngx-shared';
 
 /**
  * List of interceptors. Order is very important.

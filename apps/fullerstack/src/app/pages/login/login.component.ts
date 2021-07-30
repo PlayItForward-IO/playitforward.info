@@ -8,13 +8,13 @@
 
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { AuthService } from '@fullerstack/ngx-auth';
-import { i18nExtractor as _ } from '@fullerstack/ngx-i18n';
-import { ProgressService, ValidationService } from '@fullerstack/ngx-shared';
+import { AuthService } from '@playitfoward/ngx-auth';
+import { i18nExtractor as _ } from '@playitfoward/ngx-i18n';
+import { ProgressService, ValidationService } from '@playitfoward/ngx-shared';
 import { Subject, distinctUntilChanged, first, takeUntil } from 'rxjs';
 
 @Component({
-  selector: 'fullerstack-login',
+  selector: 'playitfoward-login',
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.scss'],
 })

@@ -6,7 +6,7 @@
  * that can be found at http://neekware.com/license/PRI.html
  */
 
-import { ApiError } from '@fullerstack/agx-dto';
+import { ApiError } from '@playitfoward/agx-dto';
 import {
   AuthGuardAnonymousGql,
   AuthGuardGql,
@@ -14,11 +14,11 @@ import {
   LocaleDecorator,
   UseRoles,
   UserDecorator,
-} from '@fullerstack/nsx-auth';
-import { PaginationArgs } from '@fullerstack/nsx-common';
-import { I18nService } from '@fullerstack/nsx-i18n';
-import { MailerService } from '@fullerstack/nsx-mailer';
-import { PrismaService } from '@fullerstack/nsx-prisma';
+} from '@playitfoward/nsx-auth';
+import { PaginationArgs } from '@playitfoward/nsx-common';
+import { I18nService } from '@playitfoward/nsx-i18n';
+import { MailerService } from '@playitfoward/nsx-mailer';
+import { PrismaService } from '@playitfoward/nsx-prisma';
 import { ForbiddenException, NotFoundException, UseGuards } from '@nestjs/common';
 import { Args, Mutation, Query, Resolver } from '@nestjs/graphql';
 import { Role, User } from '@prisma/client';

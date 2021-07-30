@@ -6,9 +6,9 @@
  * that can be found at http://neekware.com/license/PRI.html
  */
 
-import { SecurityConfig } from '@fullerstack/nsx-auth';
-import { I18nConfig } from '@fullerstack/nsx-i18n';
-import { MailerConfig } from '@fullerstack/nsx-mailer';
+import { SecurityConfig } from '@playitfoward/nsx-auth';
+import { I18nConfig } from '@playitfoward/nsx-i18n';
+import { MailerConfig } from '@playitfoward/nsx-mailer';
 import { NestApplicationOptions } from '@nestjs/common';
 import { ConfigModuleOptions } from '@nestjs/config';
 import { GqlModuleOptions } from '@nestjs/graphql';
@@ -52,9 +52,9 @@ const i18nConfig: I18nConfig = {
 };
 
 export const environment = {
-  siteName: 'Fullerstack',
-  siteUrl: 'https://fullerstack.net',
-  siteSupportEmail: 'support@fullerstack.net',
+  siteName: 'playitfoward',
+  siteUrl: 'https://playitfoward.net',
+  siteSupportEmail: 'support@playitfoward.net',
   production: false,
   port: 4301,
   prefix: 'api',

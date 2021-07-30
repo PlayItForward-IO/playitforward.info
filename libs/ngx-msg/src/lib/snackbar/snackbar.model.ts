@@ -6,7 +6,7 @@
  * that can be found at http://neekware.com/license/PRI.html
  */
 
-import { LogLevel } from '@fullerstack/ngx-logger';
+import { LogLevel } from '@playitfoward/ngx-logger';
 
 export enum SnackbarType {
   'error' = 'error',

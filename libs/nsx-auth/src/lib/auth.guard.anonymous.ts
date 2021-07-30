@@ -6,7 +6,7 @@
  * that can be found at http://neekware.com/license/PRI.html
  */
 
-import { JwtDto } from '@fullerstack/agx-dto';
+import { JwtDto } from '@playitfoward/agx-dto';
 import { ExecutionContext, Injectable } from '@nestjs/common';
 
 import { AUTH_SESSION_COOKIE_NAME } from './auth.constant';

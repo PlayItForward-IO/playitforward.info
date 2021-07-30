@@ -8,7 +8,7 @@
 
 import { HttpClientModule } from '@angular/common/http';
 import { TestBed } from '@angular/core/testing';
-import { ConfigModule } from '@fullerstack/ngx-config';
+import { ConfigModule } from '@playitfoward/ngx-config';
 
 import { UixModule } from './uix.module';
 import { UixService } from './uix.service';

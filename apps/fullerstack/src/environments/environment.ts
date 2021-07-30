@@ -6,15 +6,15 @@
  * that can be found at http://neekware.com/license/PRI.html
  */
 
-import { AuthConfig } from '@fullerstack/ngx-auth';
-import { CachifyConfig } from '@fullerstack/ngx-cachify';
-import { ApplicationConfig } from '@fullerstack/ngx-config';
-import { GqlConfig } from '@fullerstack/ngx-gql';
-import { GTagConfig } from '@fullerstack/ngx-gtag';
-import { I18nConfig } from '@fullerstack/ngx-i18n';
-import { LogLevel, LoggerConfig } from '@fullerstack/ngx-logger';
-import { StoreConfig } from '@fullerstack/ngx-store';
-import { UserConfig } from '@fullerstack/ngx-user';
+import { AuthConfig } from '@playitfoward/ngx-auth';
+import { CachifyConfig } from '@playitfoward/ngx-cachify';
+import { ApplicationConfig } from '@playitfoward/ngx-config';
+import { GqlConfig } from '@playitfoward/ngx-gql';
+import { GTagConfig } from '@playitfoward/ngx-gtag';
+import { I18nConfig } from '@playitfoward/ngx-i18n';
+import { LogLevel, LoggerConfig } from '@playitfoward/ngx-logger';
+import { StoreConfig } from '@playitfoward/ngx-store';
+import { UserConfig } from '@playitfoward/ngx-user';
 
 // This file can be replaced during build by using the `fileReplacements` array.
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
@@ -115,7 +115,7 @@ const cachify: CachifyConfig = {
 export const environment: Readonly<ApplicationConfig> = {
   version: '0.0.1',
   production: false,
-  appName: 'FullerStack-Dev',
+  appName: 'PlayItForward-Dev',
   logger,
   i18n,
   gql,

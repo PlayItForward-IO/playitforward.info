@@ -13,7 +13,7 @@
   "affected": {
     "defaultBase": "main"
   },
-  "npmScope": "fullerstack",
+  "npmScope": "playitfoward",
   "tasksRunnerOptions": {
     "default": {
       "runner": "@nrwl/nx-cloud",
@@ -41,13 +41,13 @@
     "api": {
       "tags": ["scope:api-server"]
     },
-    "fullerstack": {
-      "tags": ["scope:fullerstack-client"],
+    "playitfoward": {
+      "tags": ["scope:playitfoward-client"],
       "implicitDependencies": ["agx-assets"]
     },
-    "fullerstack-e2e": {
-      "tags": ["scope:fullerstack-e2e"],
-      "implicitDependencies": ["fullerstack"]
+    "playitfoward-e2e": {
+      "tags": ["scope:playitfoward-e2e"],
+      "implicitDependencies": ["playitfoward"]
     },
     "ngx-auth": {
       "tags": ["scope:ngx-util"]

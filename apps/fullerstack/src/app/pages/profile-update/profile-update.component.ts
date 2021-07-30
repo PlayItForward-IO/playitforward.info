@@ -8,17 +8,17 @@
 
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { ApiConstants } from '@fullerstack/agx-dto';
-import { AuthService } from '@fullerstack/ngx-auth';
-import { ConfigService } from '@fullerstack/ngx-config';
-import { i18nExtractor as _ } from '@fullerstack/ngx-i18n';
-import { LoggerService } from '@fullerstack/ngx-logger';
-import { ConfirmationDialogService, ProgressService } from '@fullerstack/ngx-shared';
-import { UserService, UserState } from '@fullerstack/ngx-user';
+import { ApiConstants } from '@playitfoward/agx-dto';
+import { AuthService } from '@playitfoward/ngx-auth';
+import { ConfigService } from '@playitfoward/ngx-config';
+import { i18nExtractor as _ } from '@playitfoward/ngx-i18n';
+import { LoggerService } from '@playitfoward/ngx-logger';
+import { ConfirmationDialogService, ProgressService } from '@playitfoward/ngx-shared';
+import { UserService, UserState } from '@playitfoward/ngx-user';
 import { Observable, Subject, debounceTime, distinctUntilChanged, first, takeUntil } from 'rxjs';
 
 @Component({
-  selector: 'fullerstack-user-profile-update',
+  selector: 'playitfoward-user-profile-update',
   templateUrl: './profile-update.component.html',
   styleUrls: ['./profile-update.component.scss'],
   providers: [ConfirmationDialogService],

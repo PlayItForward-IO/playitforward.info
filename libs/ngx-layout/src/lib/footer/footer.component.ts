@@ -7,18 +7,18 @@
  */
 
 import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
-import { i18nExtractor as _ } from '@fullerstack/ngx-i18n';
+import { i18nExtractor as _ } from '@playitfoward/ngx-i18n';
 
 import { FooterItem } from './footer.model';
 
 @Component({
-  selector: 'fullerstack-footer',
+  selector: 'playitfoward-footer',
   templateUrl: './footer.component.html',
   styleUrls: ['./footer.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class FooterComponent {
-  @Input() appName = 'Fullerstack';
+  @Input() appName = 'playitfoward';
 
   today = new Date();
   footers: FooterItem[] = [

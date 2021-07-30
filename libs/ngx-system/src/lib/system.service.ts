@@ -9,18 +9,18 @@
 import { Injectable, OnDestroy } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
 import { ActivatedRoute, Data, NavigationEnd, Router } from '@angular/router';
-import { AuthService, DefaultAuthConfig } from '@fullerstack/ngx-auth';
+import { AuthService, DefaultAuthConfig } from '@playitfoward/ngx-auth';
 import {
   ApplicationConfig,
   ConfigService,
   DefaultApplicationConfig,
-} from '@fullerstack/ngx-config';
-import { GqlErrorsHandler, GqlService } from '@fullerstack/ngx-gql';
-import { SystemContactUsMutation } from '@fullerstack/ngx-gql/operations';
-import { SystemContactUsInput, SystemStatus } from '@fullerstack/ngx-gql/schema';
-import { I18nService, i18nExtractor as _ } from '@fullerstack/ngx-i18n';
-import { LogLevel, LoggerService } from '@fullerstack/ngx-logger';
-import { MsgService } from '@fullerstack/ngx-msg';
+} from '@playitfoward/ngx-config';
+import { GqlErrorsHandler, GqlService } from '@playitfoward/ngx-gql';
+import { SystemContactUsMutation } from '@playitfoward/ngx-gql/operations';
+import { SystemContactUsInput, SystemStatus } from '@playitfoward/ngx-gql/schema';
+import { I18nService, i18nExtractor as _ } from '@playitfoward/ngx-i18n';
+import { LogLevel, LoggerService } from '@playitfoward/ngx-logger';
+import { MsgService } from '@playitfoward/ngx-msg';
 import { merge as ldNestedMerge } from 'lodash-es';
 import { Observable, Subject, of } from 'rxjs';
 import { catchError, filter, map, switchMap, take, takeUntil } from 'rxjs/operators';

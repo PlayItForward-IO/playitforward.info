@@ -10,17 +10,17 @@ import { DOCUMENT } from '@angular/common';
 import { AfterViewInit, Component, Inject, OnDestroy, ViewChild } from '@angular/core';
 import { MatSidenav } from '@angular/material/sidenav';
 import { RouterOutlet } from '@angular/router';
-import { AuthService } from '@fullerstack/ngx-auth';
-import { I18nService } from '@fullerstack/ngx-i18n';
-import { LoggerService } from '@fullerstack/ngx-logger';
-import { fadeAnimations, routeAnimations } from '@fullerstack/ngx-shared';
+import { AuthService } from '@playitfoward/ngx-auth';
+import { I18nService } from '@playitfoward/ngx-i18n';
+import { LoggerService } from '@playitfoward/ngx-logger';
+import { fadeAnimations, routeAnimations } from '@playitfoward/ngx-shared';
 import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
 
 import { LayoutService } from './layout.service';
 
 @Component({
-  selector: 'fullerstack-layout',
+  selector: 'playitfoward-layout',
   templateUrl: './layout.component.html',
   styleUrls: ['./layout.component.scss'],
   animations: [routeAnimations.slideIn, fadeAnimations.fadeOutInSlow],

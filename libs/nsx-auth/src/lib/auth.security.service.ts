@@ -6,9 +6,9 @@
  * that can be found at http://neekware.com/license/PRI.html
  */
 
-import { ApiError, JwtDto } from '@fullerstack/agx-dto';
-import { HttpRequest, HttpResponse } from '@fullerstack/nsx-common';
-import { PrismaService } from '@fullerstack/nsx-prisma';
+import { ApiError, JwtDto } from '@playitfoward/agx-dto';
+import { HttpRequest, HttpResponse } from '@playitfoward/nsx-common';
+import { PrismaService } from '@playitfoward/nsx-prisma';
 import { BadRequestException, Injectable, Logger } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import { Permission, Role, User } from '@prisma/client';

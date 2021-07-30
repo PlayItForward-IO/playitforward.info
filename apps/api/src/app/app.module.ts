@@ -6,12 +6,12 @@
  * that can be found at http://neekware.com/license/PRI.html
  */
 
-import { AuthModule } from '@fullerstack/nsx-auth';
-import { HttpRequest, HttpResponse } from '@fullerstack/nsx-common';
-import { MailerModule } from '@fullerstack/nsx-mailer';
-import { PrismaModule } from '@fullerstack/nsx-prisma';
-import { SystemModule } from '@fullerstack/nsx-system';
-import { UserModule } from '@fullerstack/nsx-user';
+import { AuthModule } from '@playitfoward/nsx-auth';
+import { HttpRequest, HttpResponse } from '@playitfoward/nsx-common';
+import { MailerModule } from '@playitfoward/nsx-mailer';
+import { PrismaModule } from '@playitfoward/nsx-prisma';
+import { SystemModule } from '@playitfoward/nsx-system';
+import { UserModule } from '@playitfoward/nsx-user';
 import { Module } from '@nestjs/common';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { GraphQLModule } from '@nestjs/graphql';

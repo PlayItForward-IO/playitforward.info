@@ -8,8 +8,8 @@
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { TestBed } from '@angular/core/testing';
-import { ApplicationConfig, ConfigModule } from '@fullerstack/ngx-config';
-import { LoggerModule } from '@fullerstack/ngx-logger';
+import { ApplicationConfig, ConfigModule } from '@playitfoward/ngx-config';
+import { LoggerModule } from '@playitfoward/ngx-logger';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { Observable, of as observableOf } from 'rxjs';
 
@@ -18,7 +18,7 @@ import { I18nModule } from './i18n.module';
 import { I18nService } from './i18n.service';
 
 const applicationEnv: ApplicationConfig = {
-  appName: '@fullerstack/ngx-i18n',
+  appName: '@playitfoward/ngx-i18n',
   production: false,
 };
 

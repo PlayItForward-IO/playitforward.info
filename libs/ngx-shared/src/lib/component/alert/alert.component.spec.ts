@@ -9,9 +9,9 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { MatChip, MatChipList } from '@angular/material/chips';
 import { MatSnackBar } from '@angular/material/snack-bar';
-import { ConfigModule } from '@fullerstack/ngx-config';
-import { I18nModule } from '@fullerstack/ngx-i18n';
-import { MsgModule } from '@fullerstack/ngx-msg';
+import { ConfigModule } from '@playitfoward/ngx-config';
+import { I18nModule } from '@playitfoward/ngx-i18n';
+import { MsgModule } from '@playitfoward/ngx-msg';
 
 import { AlertComponent } from './alert.component';
 

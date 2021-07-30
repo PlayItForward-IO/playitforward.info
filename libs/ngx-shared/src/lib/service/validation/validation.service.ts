@@ -15,7 +15,7 @@ import {
   ValidationErrors,
   ValidatorFn,
 } from '@angular/forms';
-import { tokenizeFullName } from '@fullerstack/agx-util';
+import { tokenizeFullName } from '@playitfoward/agx-util';
 
 export enum compareType {
   'sameAs' = 'sameAs', // two values to be the same

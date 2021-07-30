@@ -8,10 +8,10 @@
 
 import { Component } from '@angular/core';
 import { MatDialogRef } from '@angular/material/dialog';
-import { I18nService } from '@fullerstack/ngx-i18n';
+import { I18nService } from '@playitfoward/ngx-i18n';
 
 @Component({
-  selector: 'fullerstack-confirmation-dialog',
+  selector: 'playitfoward-confirmation-dialog',
   templateUrl: './confirm.component.html',
 })
 export class ConfirmationDialogComponent {

@@ -6,16 +6,16 @@
  * that can be found at http://neekware.com/license/PRI.html
  */
 
-import { ApiError, JwtDto } from '@fullerstack/agx-dto';
+import { ApiError, JwtDto } from '@playitfoward/agx-dto';
 import {
   ApplicationConfig,
   HttpRequest,
   HttpResponse,
   RenderContext,
   getEmailBodySubject,
-} from '@fullerstack/nsx-common';
-import { I18nService } from '@fullerstack/nsx-i18n';
-import { MailerService } from '@fullerstack/nsx-mailer';
+} from '@playitfoward/nsx-common';
+import { I18nService } from '@playitfoward/nsx-i18n';
+import { MailerService } from '@playitfoward/nsx-mailer';
 import { UnauthorizedException, UseGuards } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import { Args, Mutation, Resolver } from '@nestjs/graphql';

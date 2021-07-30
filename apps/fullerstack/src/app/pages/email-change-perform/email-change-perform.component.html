@@ -1,6 +1,6 @@
 <mat-toolbar class="fs-page-header" color="primary"> </mat-toolbar>
 <div class="fs-page-content">
-  <fullerstack-card
+  <playitfoward-card
     class="fs-page-card"
     fxLayout="column"
     fxFlex.xs="100"
@@ -11,17 +11,17 @@
     [icon]="icon"
     [progress]="progress.state$ | async"
   >
-    <fullerstack-blob
+    <playitfoward-blob
       *ngIf="status.ok"
       class="mt1"
       text="{{ status.message | translate }}. {{ user.state.email }}"
       icon="check-circle-outline"
       iconColor="green"
     >
-    </fullerstack-blob>
+    </playitfoward-blob>
 
-    <fullerstack-blob *ngIf="!status.ok" class="mt1" text="{{ status.message | translate }}." icon="alert-circle" iconColor="red">
-    </fullerstack-blob>
+    <playitfoward-blob *ngIf="!status.ok" class="mt1" text="{{ status.message | translate }}." icon="alert-circle" iconColor="red">
+    </playitfoward-blob>
 
     <mat-divider class="mt1"></mat-divider>
 
@@ -52,5 +52,5 @@
         ]
       </span>
     </div>
-  </fullerstack-card>
+  </playitfoward-card>
 </div>

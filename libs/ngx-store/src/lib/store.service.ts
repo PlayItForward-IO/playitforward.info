@@ -8,13 +8,13 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
 import { Injectable } from '@angular/core';
-import { StoreLogger, StoreState, StoreStateReducer, StoreStateType } from '@fullerstack/agx-store';
+import { StoreLogger, StoreState, StoreStateReducer, StoreStateType } from '@playitfoward/agx-store';
 import {
   ApplicationConfig,
   ConfigService,
   DefaultApplicationConfig,
-} from '@fullerstack/ngx-config';
-import { LoggerService } from '@fullerstack/ngx-logger';
+} from '@playitfoward/ngx-config';
+import { LoggerService } from '@playitfoward/ngx-logger';
 import { merge as ldNestedMerge } from 'lodash-es';
 import { Observable } from 'rxjs';
 import { DeepReadonly } from 'ts-essentials';

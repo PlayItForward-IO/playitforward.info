@@ -8,7 +8,7 @@
 
 import { getGreeting } from '../support/app.po';
 
-describe('fullerstack', () => {
+describe('playitfoward', () => {
   beforeEach(() => cy.visit('/'));
 
   it('should display welcome message', () => {
@@ -16,6 +16,6 @@ describe('fullerstack', () => {
     cy.login('my-email@something.com', 'myPassword');
 
     // Function helper example, see `../support/app.po.ts` file
-    getGreeting().contains('Welcome to fullerstack!');
+    getGreeting().contains('Welcome to playitfoward!');
   });
 });

@@ -10,17 +10,17 @@ import { BreakpointObserver, BreakpointState, Breakpoints } from '@angular/cdk/l
 import { OverlayContainer } from '@angular/cdk/overlay';
 import { Injectable, OnDestroy } from '@angular/core';
 import { NavigationEnd, Router } from '@angular/router';
-import { AuthService } from '@fullerstack/ngx-auth';
+import { AuthService } from '@playitfoward/ngx-auth';
 import {
   ApplicationConfig,
   ConfigService,
   DefaultApplicationConfig,
-} from '@fullerstack/ngx-config';
-import { I18nService } from '@fullerstack/ngx-i18n';
-import { LoggerService } from '@fullerstack/ngx-logger';
-import { MenuService } from '@fullerstack/ngx-menu';
-import { StoreService } from '@fullerstack/ngx-store';
-import { UixService } from '@fullerstack/ngx-uix';
+} from '@playitfoward/ngx-config';
+import { I18nService } from '@playitfoward/ngx-i18n';
+import { LoggerService } from '@playitfoward/ngx-logger';
+import { MenuService } from '@playitfoward/ngx-menu';
+import { StoreService } from '@playitfoward/ngx-store';
+import { UixService } from '@playitfoward/ngx-uix';
 import { merge as ldNestedMerge } from 'lodash-es';
 import { Observable, Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';

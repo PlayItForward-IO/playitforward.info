@@ -1,4 +1,4 @@
-# @fullerstack/ngx-menu <img style="margin-bottom: -6px" width="30" src="../../libs/agx-assets/src/lib/images/tech/fullerstack-x250.png">
+# @playitfoward/ngx-menu <img style="margin-bottom: -6px" width="30" src="../../libs/agx-assets/src/lib/images/tech/playitfoward-x250.png">
 
 **A simple menu library for Angular applications**
 
@@ -13,17 +13,17 @@
 
 Creating a menu system can be a complicated task, and to avoid hard-coding repeated logic, this library creates complex nested menu system, derived from data tables.
 
-**@fullerstack/ngx-menu** attempts to streamline the menu system of your application, while promoting DRY **DRY**.
+**@playitfoward/ngx-menu** attempts to streamline the menu system of your application, while promoting DRY **DRY**.
 
 # How to install
 
-    npm i @fullerstack/ngx-menu |OR| yarn add @fullerstack/ngx-menu
+    npm i @playitfoward/ngx-menu |OR| yarn add @playitfoward/ngx-menu
 
 # How to use
 
 ```typescript
 // app.module.ts
-import { MenuModule, MenuService } from '@fullerstack/ngx-menu';
+import { MenuModule, MenuService } from '@playitfoward/ngx-menu';
 
 NgModule({
   declarations: [AppComponent],
@@ -38,7 +38,7 @@ export class AppModule {}
 // app.component.ts
 
 import { Component } from '@angular/core';
-import { MenuService, MenuItem } from '@fullerstack/ngx-menu';
+import { MenuService, MenuItem } from '@playitfoward/ngx-menu';
 
 export const AppMenuTree: MenuItem[] = [
   {
@@ -121,12 +121,12 @@ export const AppMenuTree: MenuItem[] = [
 ];
 
 @Component({
-  selector: 'fullerstack-root',
+  selector: 'playitfoward-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'Fullerstack';
+  title = 'PlayItForward';
   menuTree = null;
   user: {
     // user is fetched from the server upon authentication
@@ -218,7 +218,7 @@ for (const node in menuTree.children) {
 
 # License
 
-Released under a ([MIT](https://raw.githubusercontent.com/neekware/fullerstack/main/LICENSE)) license.
+Released under a ([MIT](https://raw.githubusercontent.com/neekware/playitfoward/main/LICENSE)) license.
 
 # Version
 
@@ -228,14 +228,14 @@ X.Y.Z Version
     `MINOR` version -- adding functionality in a backwards-compatible manner
     `PATCH` version -- making backwards-compatible bug fixes
 
-[status-image]: https://github.com/neekware/fullerstack/actions/workflows/ci.yml/badge.svg
-[status-link]: https://github.com/neekware/fullerstack/actions/workflows/ci.yml
-[version-image]: https://img.shields.io/npm/v/@fullerstack/ngx-menu.svg
-[version-link]: https://www.npmjs.com/package/@fullerstack/ngx-menu
-[coverage-image]: https://coveralls.io/repos/neekware/fullerstack/badge.svg
-[coverage-link]: https://coveralls.io/r/neekware/fullerstack
-[download-image]: https://img.shields.io/npm/dm/@fullerstack/ngx-menu.svg
-[download-link]: https://www.npmjs.com/package/@fullerstack/ngx-menu
+[status-image]: https://github.com/neekware/playitfoward/actions/workflows/ci.yml/badge.svg
+[status-link]: https://github.com/neekware/playitfoward/actions/workflows/ci.yml
+[version-image]: https://img.shields.io/npm/v/@playitfoward/ngx-menu.svg
+[version-link]: https://www.npmjs.com/package/@playitfoward/ngx-menu
+[coverage-image]: https://coveralls.io/repos/neekware/playitfoward/badge.svg
+[coverage-link]: https://coveralls.io/r/neekware/playitfoward
+[download-image]: https://img.shields.io/npm/dm/@playitfoward/ngx-menu.svg
+[download-link]: https://www.npmjs.com/package/@playitfoward/ngx-menu
 
 ```
 

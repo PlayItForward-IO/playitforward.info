@@ -12,8 +12,8 @@ import {
   ApplicationConfig,
   ConfigService,
   DefaultApplicationConfig,
-} from '@fullerstack/ngx-config';
-import { LoggerService } from '@fullerstack/ngx-logger';
+} from '@playitfoward/ngx-config';
+import { LoggerService } from '@playitfoward/ngx-logger';
 import { TranslateService } from '@ngx-translate/core';
 import { merge as ldNestedMerge } from 'lodash-es';
 import { Subject } from 'rxjs';

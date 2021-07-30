@@ -8,8 +8,8 @@
 
 import { HttpClientModule } from '@angular/common/http';
 import { TestBed, waitForAsync } from '@angular/core/testing';
-import { ApplicationConfig, ConfigModule } from '@fullerstack/ngx-config';
-import { MaterialModule } from '@fullerstack/ngx-material';
+import { ApplicationConfig, ConfigModule } from '@playitfoward/ngx-config';
+import { MaterialModule } from '@playitfoward/ngx-material';
 
 import { AppComponent } from './app.component';
 

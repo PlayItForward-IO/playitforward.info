@@ -7,14 +7,14 @@
  */
 
 import { Component, OnDestroy, OnInit } from '@angular/core';
-import { AuthService } from '@fullerstack/ngx-auth';
-import { i18nExtractor as _ } from '@fullerstack/ngx-i18n';
-import { LayoutService } from '@fullerstack/ngx-layout';
+import { AuthService } from '@playitfoward/ngx-auth';
+import { i18nExtractor as _ } from '@playitfoward/ngx-i18n';
+import { LayoutService } from '@playitfoward/ngx-layout';
 import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
 
 @Component({
-  selector: 'fullerstack-home',
+  selector: 'playitfoward-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],
 })

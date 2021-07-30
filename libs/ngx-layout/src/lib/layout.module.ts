@@ -9,12 +9,12 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { AuthModule } from '@fullerstack/ngx-auth';
-import { I18nModule } from '@fullerstack/ngx-i18n';
-import { MaterialModule } from '@fullerstack/ngx-material';
-import { MenuService } from '@fullerstack/ngx-menu';
-import { SharedModule } from '@fullerstack/ngx-shared';
-import { UixModule } from '@fullerstack/ngx-uix';
+import { AuthModule } from '@playitfoward/ngx-auth';
+import { I18nModule } from '@playitfoward/ngx-i18n';
+import { MaterialModule } from '@playitfoward/ngx-material';
+import { MenuService } from '@playitfoward/ngx-menu';
+import { SharedModule } from '@playitfoward/ngx-shared';
+import { UixModule } from '@playitfoward/ngx-uix';
 
 import { FooterComponent } from './footer/footer.component';
 import { LayoutComponent } from './layout.component';

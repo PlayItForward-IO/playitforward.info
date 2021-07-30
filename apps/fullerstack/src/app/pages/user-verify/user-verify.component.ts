@@ -8,15 +8,15 @@
 
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { AuthService } from '@fullerstack/ngx-auth';
-import { I18nService } from '@fullerstack/ngx-i18n';
-import { i18nExtractor as _ } from '@fullerstack/ngx-i18n';
-import { ProgressService } from '@fullerstack/ngx-shared';
+import { AuthService } from '@playitfoward/ngx-auth';
+import { I18nService } from '@playitfoward/ngx-i18n';
+import { i18nExtractor as _ } from '@playitfoward/ngx-i18n';
+import { ProgressService } from '@playitfoward/ngx-shared';
 import { Subject } from 'rxjs';
 import { filter, first, switchMap, takeUntil } from 'rxjs/operators';
 
 @Component({
-  selector: 'fullerstack-user-verify',
+  selector: 'playitfoward-user-verify',
   templateUrl: './user-verify.component.html',
 })
 export class UserVerifyComponent implements OnInit, OnDestroy {

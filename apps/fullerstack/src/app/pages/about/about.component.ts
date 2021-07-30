@@ -9,7 +9,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'fullerstack-about',
+  selector: 'playitfoward-about',
   templateUrl: './about.component.html',
   styleUrls: ['./about.component.scss'],
 })

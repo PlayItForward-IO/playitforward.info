@@ -1,4 +1,4 @@
-# @fullerstack/agx-store <img style="margin-bottom: -6px" width="30" src="../../libs/agx-assets/src/lib/images/tech/fullerstack-x250.png">
+# @playitfoward/agx-store <img style="margin-bottom: -6px" width="30" src="../../libs/agx-assets/src/lib/images/tech/playitfoward-x250.png">
 
 **A simple flat state/store that helps implementing lite-redux patterns**
 
@@ -13,11 +13,11 @@
 
 This library helps implementing a flat `redux` state store, with simplicity and performance in mind.
 
-**@fullerstack/agx-store** attempts to simplify the reactive implementation of your browser application, through minimal `redux` patterns, while promoting DRY **DRY**.
+**@playitfoward/agx-store** attempts to simplify the reactive implementation of your browser application, through minimal `redux` patterns, while promoting DRY **DRY**.
 
 # How to install
 
-    npm i @fullerstack/agx-store |OR| yarn add @fullerstack/agx-store
+    npm i @playitfoward/agx-store |OR| yarn add @playitfoward/agx-store
 
 # How to use
 
@@ -51,7 +51,7 @@ export const DefaultAuthState: DeepReadonly<AuthState> = {
 ```typescript
 import { DeepReadonly } from 'ts-essentials';
 import { Subscription } from 'rxjs';
-import { Store, StoreStateType } from '@fullerstack/agx-store';
+import { Store, StoreStateType } from '@playitfoward/agx-store';
 
 // auth service
 export class AuthService<T = StoreStateType> {
@@ -216,7 +216,7 @@ this.store.setState(this.claimId, (fullStoreState) => {
 
 # License
 
-Released under a ([MIT](https://raw.githubusercontent.com/neekware/fullerstack/main/LICENSE)) license.
+Released under a ([MIT](https://raw.githubusercontent.com/neekware/playitfoward/main/LICENSE)) license.
 
 # Version
 
@@ -226,11 +226,11 @@ X.Y.Z Version
     `MINOR` version -- adding functionality in a backwards-compatible manner
     `PATCH` version -- making backwards-compatible bug fixes
 
-[status-image]: https://github.com/neekware/fullerstack/actions/workflows/ci.yml/badge.svg
-[status-link]: https://github.com/neekware/fullerstack/actions/workflows/ci.yml
-[version-image]: https://img.shields.io/npm/v/@fullerstack/agx-store.svg
-[version-link]: https://www.npmjs.com/package/@fullerstack/agx-store
-[coverage-image]: https://coveralls.io/repos/neekware/fullerstack/badge.svg
-[coverage-link]: https://coveralls.io/r/neekware/fullerstack
-[download-image]: https://img.shields.io/npm/dm/@fullerstack/agx-store.svg
-[download-link]: https://www.npmjs.com/package/@fullerstack/agx-store
+[status-image]: https://github.com/neekware/playitfoward/actions/workflows/ci.yml/badge.svg
+[status-link]: https://github.com/neekware/playitfoward/actions/workflows/ci.yml
+[version-image]: https://img.shields.io/npm/v/@playitfoward/agx-store.svg
+[version-link]: https://www.npmjs.com/package/@playitfoward/agx-store
+[coverage-image]: https://coveralls.io/repos/neekware/playitfoward/badge.svg
+[coverage-link]: https://coveralls.io/r/neekware/playitfoward
+[download-image]: https://img.shields.io/npm/dm/@playitfoward/agx-store.svg
+[download-link]: https://www.npmjs.com/package/@playitfoward/agx-store

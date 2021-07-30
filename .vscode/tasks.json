@@ -3,7 +3,7 @@
   "tasks": [
     {
       "type": "npm",
-      "script": "start:fullerstack",
+      "script": "start:playitfoward",
       "isBackground": true,
       "presentation": {
         "focus": true,

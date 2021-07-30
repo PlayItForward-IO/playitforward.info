@@ -8,9 +8,9 @@
 
 import { HttpEvent, HttpHandler, HttpInterceptor, HttpRequest } from '@angular/common/http';
 import { Injectable, Injector } from '@angular/core';
-import { HttpStatusCode, JWT_BEARER_REALM } from '@fullerstack/agx-dto';
-import { tryGet } from '@fullerstack/agx-util';
-import { GqlErrorsHandler, GqlOperationNameKey } from '@fullerstack/ngx-gql';
+import { HttpStatusCode, JWT_BEARER_REALM } from '@playitfoward/agx-dto';
+import { tryGet } from '@playitfoward/agx-util';
+import { GqlErrorsHandler, GqlOperationNameKey } from '@playitfoward/ngx-gql';
 import { Observable, of, throwError } from 'rxjs';
 import { catchError, map, switchMap } from 'rxjs/operators';
 

@@ -7,7 +7,7 @@
  */
 
 import { TestBed } from '@angular/core/testing';
-import { StoreService } from '@fullerstack/ngx-store';
+import { StoreService } from '@playitfoward/ngx-store';
 
 import { AuthInterceptor } from './auth.interceptor';
 import { AuthService } from './auth.service';

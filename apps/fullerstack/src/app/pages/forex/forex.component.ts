@@ -9,7 +9,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'fullerstack-forex',
+  selector: 'playitfoward-forex',
   templateUrl: './forex.component.html',
   styleUrls: ['./forex.component.scss'],
 })

@@ -1,6 +1,6 @@
 <mat-toolbar class="fs-page-header" color="primary"> </mat-toolbar>
 <div class="fs-page-content">
-  <fullerstack-card
+  <playitfoward-card
     class="fs-page-card"
     fxLayout="column"
     fxFlex.xs="100"
@@ -57,14 +57,14 @@
       </div>
     </form>
 
-    <fullerstack-blob
+    <playitfoward-blob
       *ngIf="isSubmitted && status?.ok"
       class="mt1"
       text="{{ 'INFO.CONTACT_MESSAGE_SENT' | translate }}."
       icon="check-circle-outline"
       iconColor="green"
     >
-    </fullerstack-blob>
+    </playitfoward-blob>
 
     <mat-divider class="mt1"></mat-divider>
 
@@ -95,5 +95,5 @@
         ]
       </span>
     </div>
-  </fullerstack-card>
+  </playitfoward-card>
 </div>

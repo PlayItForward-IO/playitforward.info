@@ -8,13 +8,13 @@
 
 import { HttpClientTestingModule } from '@angular/common/http/testing';
 import { TestBed } from '@angular/core/testing';
-import { ApplicationConfig, ConfigModule } from '@fullerstack/ngx-config';
-import { LogLevel } from '@fullerstack/ngx-logger';
+import { ApplicationConfig, ConfigModule } from '@playitfoward/ngx-config';
+import { LogLevel } from '@playitfoward/ngx-logger';
 
 import { LoggerInterceptor } from './logger.interceptor';
 
 export const environment: ApplicationConfig = {
-  appName: 'Fullerstack',
+  appName: 'playitfoward',
   production: false,
   logger: { level: LogLevel.trace },
   gql: { endpoint: '/graphql' },

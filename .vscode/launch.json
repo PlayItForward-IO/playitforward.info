@@ -5,9 +5,9 @@
       "type": "chrome",
       "request": "launch",
       "name": "Launch Angular",
-      "preLaunchTask": "npm: start:fullerstack",
+      "preLaunchTask": "npm: start:playitfoward",
       "url": "http://localhost:4200/",
-      "webRoot": "${workspaceFolder}/apps/fullerstack"
+      "webRoot": "${workspaceFolder}/apps/playitfoward"
     },
     {
       "type": "node",
@@ -46,8 +46,8 @@
       "id": "libName",
       "description": "Run jest tests from which nx.json project?",
       "options": [
-        "fullerstack-e2e",
-        "fullerstack",
+        "playitfoward-e2e",
+        "playitfoward",
         "api",
         "ngx-config",
         "ngx-logger",

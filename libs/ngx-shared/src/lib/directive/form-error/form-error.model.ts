@@ -6,8 +6,8 @@
  * that can be found at http://neekware.com/license/PRI.html
  */
 
-import { tryGet } from '@fullerstack/agx-util';
-import { i18nExtractor as _ } from '@fullerstack/ngx-i18n';
+import { tryGet } from '@playitfoward/agx-util';
+import { i18nExtractor as _ } from '@playitfoward/ngx-i18n';
 
 /**
  * Debounce time for verification and showing the hint

@@ -8,8 +8,8 @@
 
 import { Injectable, OnDestroy } from '@angular/core';
 import { MatSnackBar, MatSnackBarConfig } from '@angular/material/snack-bar';
-import { I18nService } from '@fullerstack/ngx-i18n';
-import { LogLevel, LoggerService } from '@fullerstack/ngx-logger';
+import { I18nService } from '@playitfoward/ngx-i18n';
+import { LogLevel, LoggerService } from '@playitfoward/ngx-logger';
 import { Subject } from 'rxjs';
 import { first, takeUntil } from 'rxjs/operators';
 import { DeepReadonly } from 'ts-essentials';

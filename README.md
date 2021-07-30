@@ -1,11 +1,11 @@
-# Fullerstack <img style="margin-bottom: -6px" width="30" src="libs/agx-assets/src/lib/images/tech/fullerstack-x250.png">
+# playitfoward <img style="margin-bottom: -6px" width="30" src="libs/agx-assets/src/lib/images/tech/playitfoward-x250.png">
 
 [![status-image]][status-link]
 [![coverage-image]][coverage-link]
 
 ## Description
 
-This project is a mono-repo for FullerStack which is an open source dashboard powered by Angular for the frontend and NetJs for the backend.
+This project is a mono-repo for PlayItForward which is an open source dashboard powered by Angular for the frontend and NetJs for the backend.
 
 ## Mission
 
@@ -46,7 +46,7 @@ Screenshots: ([screenshots](FEATURES.md)) // Demo: ( [avidtrader.co](https://app
 
 ### The mono-repo was created via Nrwl/Nx.
 
-npx create-nx-workspace fullerstack
+npx create-nx-workspace playitfoward
 
 ### Powered By
 
@@ -102,14 +102,14 @@ npx create-nx-workspace fullerstack
 
 ```bash
 # Clone the repo
-git clone https://github.com/neekware/fullerstack.git
+git clone https://github.com/neekware/playitfoward.git
 
 # Install the dependencies
-cd fullerstack
+cd playitfoward
 yarn install
 
 # Create a database (postgres)
-createdb fullerstack
+createdb playitfoward
 
 # Copy environment variables and update
 cp env.example .env
@@ -124,7 +124,7 @@ yarn prisma:seed
 yarn start:api
 
 # Start the frontend (in terminal #2)
-yarn start:fullerstack
+yarn start:playitfoward
 
 # Visit frontend (on mac use open, on windows, just type it in)
 open http://localhost:4200
@@ -137,7 +137,7 @@ open http://localhost:4200
 
 ```bash
 # Webpack analyzer
-yarn nx build fullerstack --stats-json --prod && yarn stats
+yarn nx build playitfoward --stats-json --prod && yarn stats
 
 # Format changed files
 yarn format:all
@@ -168,7 +168,7 @@ yarn affected:dep-graph --base=<branch-name> --head=HEAD
 
 ## License
 
-- Released under a ([MIT](https://raw.githubusercontent.com/neekware/fullerstack/main/LICENSE)) license.
+- Released under a ([MIT](https://raw.githubusercontent.com/neekware/playitfoward/main/LICENSE)) license.
 
 ## Version
 
@@ -202,9 +202,9 @@ X.Y.Z Version
 
 [ [Neekware Inc.](http://neekware.com) ] [ [Nx](https://nx.dev) ]
 
-[status-image]: https://github.com/neekware/fullerstack/actions/workflows/ci.yml/badge.svg
-[status-link]: https://github.com/neekware/fullerstack/actions/workflows/ci.yml
-[version-image]: https://img.shields.io/npm/v/@fullerstack.svg
-[version-link]: https://www.npmjs.com/settings/fullerstack/packages
-[coverage-image]: https://coveralls.io/repos/neekware/fullerstack/badge.svg
-[coverage-link]: https://coveralls.io/r/neekware/fullerstack
+[status-image]: https://github.com/neekware/playitfoward/actions/workflows/ci.yml/badge.svg
+[status-link]: https://github.com/neekware/playitfoward/actions/workflows/ci.yml
+[version-image]: https://img.shields.io/npm/v/@playitfoward.svg
+[version-link]: https://www.npmjs.com/settings/playitfoward/packages
+[coverage-image]: https://coveralls.io/repos/neekware/playitfoward/badge.svg
+[coverage-link]: https://coveralls.io/r/neekware/playitfoward

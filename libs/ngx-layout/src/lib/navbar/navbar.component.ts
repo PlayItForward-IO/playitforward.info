@@ -8,10 +8,10 @@
 
 import { ChangeDetectionStrategy, Component, Input, OnDestroy, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { AuthService, AuthState } from '@fullerstack/ngx-auth';
-import { i18nExtractor as _ } from '@fullerstack/ngx-i18n';
-import { rotationAnimations, shakeAnimations } from '@fullerstack/ngx-shared';
-import { UixService } from '@fullerstack/ngx-uix';
+import { AuthService, AuthState } from '@playitfoward/ngx-auth';
+import { i18nExtractor as _ } from '@playitfoward/ngx-i18n';
+import { rotationAnimations, shakeAnimations } from '@playitfoward/ngx-shared';
+import { UixService } from '@playitfoward/ngx-uix';
 import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
 
@@ -19,7 +19,7 @@ import { LayoutState } from '../layout.model';
 import { LayoutService } from '../layout.service';
 
 @Component({
-  selector: 'fullerstack-navbar',
+  selector: 'playitfoward-navbar',
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.scss'],
   animations: [rotationAnimations.rotate90, shakeAnimations.wiggleIt],

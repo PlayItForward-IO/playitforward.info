@@ -6,9 +6,9 @@
  * that can be found at http://neekware.com/license/PRI.html
  */
 
-import { ApiError } from '@fullerstack/agx-dto';
-import { tryGet } from '@fullerstack/agx-util';
-import { PrismaService, isConstraintError } from '@fullerstack/nsx-prisma';
+import { ApiError } from '@playitfoward/agx-dto';
+import { tryGet } from '@playitfoward/agx-util';
+import { PrismaService, isConstraintError } from '@playitfoward/nsx-prisma';
 import { BadRequestException, ConflictException, Injectable } from '@nestjs/common';
 import { Prisma, User } from '@prisma/client';
 import { v4 as uuid_v4 } from 'uuid';

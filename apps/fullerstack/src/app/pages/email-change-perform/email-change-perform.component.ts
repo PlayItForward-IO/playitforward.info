@@ -8,14 +8,14 @@
 
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { AuthService } from '@fullerstack/ngx-auth';
-import { i18nExtractor as _ } from '@fullerstack/ngx-i18n';
-import { ProgressService, ValidationService } from '@fullerstack/ngx-shared';
-import { UserService } from '@fullerstack/ngx-user';
+import { AuthService } from '@playitfoward/ngx-auth';
+import { i18nExtractor as _ } from '@playitfoward/ngx-i18n';
+import { ProgressService, ValidationService } from '@playitfoward/ngx-shared';
+import { UserService } from '@playitfoward/ngx-user';
 import { Subject, filter, first, map, switchMap, takeUntil } from 'rxjs';
 
 @Component({
-  selector: 'fullerstack-email-change-perform',
+  selector: 'playitfoward-email-change-perform',
   templateUrl: './email-change-perform.component.html',
   styleUrls: ['./email-change-perform.component.scss'],
 })

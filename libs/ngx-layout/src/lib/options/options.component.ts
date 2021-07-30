@@ -7,15 +7,15 @@
  */
 
 import { ChangeDetectionStrategy, Component, OnDestroy, OnInit } from '@angular/core';
-import { I18nService } from '@fullerstack/ngx-i18n';
-import { expansionAnimations, fadeAnimations, rotationAnimations } from '@fullerstack/ngx-shared';
+import { I18nService } from '@playitfoward/ngx-i18n';
+import { expansionAnimations, fadeAnimations, rotationAnimations } from '@playitfoward/ngx-shared';
 import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
 
 import { LayoutService } from '../layout.service';
 
 @Component({
-  selector: 'fullerstack-options',
+  selector: 'playitfoward-options',
   templateUrl: './options.component.html',
   styleUrls: ['./options.component.scss'],
   animations: [

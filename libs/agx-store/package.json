@@ -1,8 +1,8 @@
 {
-  "name": "@fullerstack/agx-store",
+  "name": "@playitfoward/agx-store",
   "version": "0.0.2",
   "description": "A simple flat state/store that helps implementing lite-redux patterns",
-  "homepage": "https://github.com/neekware/fullerstack/blob/main/libs/agx-store/README.md",
+  "homepage": "https://github.com/neekware/playitfoward/blob/main/libs/agx-store/README.md",
   "keywords": [
     "redux",
     "store"

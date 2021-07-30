@@ -7,20 +7,20 @@
  */
 
 import { Injectable } from '@angular/core';
-import { AuthService } from '@fullerstack/ngx-auth';
+import { AuthService } from '@playitfoward/ngx-auth';
 import {
   ApplicationConfig,
   ConfigService,
   DefaultApplicationConfig,
-} from '@fullerstack/ngx-config';
-import { GqlErrorsHandler, GqlService } from '@fullerstack/ngx-gql';
-import { UserSelfQuery, UserSelfUpdateMutation } from '@fullerstack/ngx-gql/operations';
-import { UserSelfUpdateInput } from '@fullerstack/ngx-gql/schema';
-import { GTagService } from '@fullerstack/ngx-gtag';
-import { I18nService, i18nExtractor as _ } from '@fullerstack/ngx-i18n';
-import { LogLevel, LoggerService } from '@fullerstack/ngx-logger';
-import { MsgService } from '@fullerstack/ngx-msg';
-import { StoreService } from '@fullerstack/ngx-store';
+} from '@playitfoward/ngx-config';
+import { GqlErrorsHandler, GqlService } from '@playitfoward/ngx-gql';
+import { UserSelfQuery, UserSelfUpdateMutation } from '@playitfoward/ngx-gql/operations';
+import { UserSelfUpdateInput } from '@playitfoward/ngx-gql/schema';
+import { GTagService } from '@playitfoward/ngx-gtag';
+import { I18nService, i18nExtractor as _ } from '@playitfoward/ngx-i18n';
+import { LogLevel, LoggerService } from '@playitfoward/ngx-logger';
+import { MsgService } from '@playitfoward/ngx-msg';
+import { StoreService } from '@playitfoward/ngx-store';
 import { merge as ldNestedMerge } from 'lodash-es';
 import { Observable, Subject, of } from 'rxjs';
 import { catchError, debounceTime, filter, map, switchMap, takeUntil } from 'rxjs/operators';

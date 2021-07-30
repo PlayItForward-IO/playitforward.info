@@ -9,17 +9,17 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { ActivatedRoute } from '@angular/router';
-import { AuthService } from '@fullerstack/ngx-auth';
-import { i18nExtractor as _ } from '@fullerstack/ngx-i18n';
+import { AuthService } from '@playitfoward/ngx-auth';
+import { i18nExtractor as _ } from '@playitfoward/ngx-i18n';
 import {
   ConfirmationDialogService,
   ProgressService,
   ValidationService,
-} from '@fullerstack/ngx-shared';
+} from '@playitfoward/ngx-shared';
 import { Observable, Subject, takeUntil } from 'rxjs';
 
 @Component({
-  selector: 'fullerstack-password-change',
+  selector: 'playitfoward-password-change',
   templateUrl: './password-change.component.html',
   styleUrls: ['./password-change.component.scss'],
   providers: [ConfirmationDialogService],

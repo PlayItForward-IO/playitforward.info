@@ -1,8 +1,8 @@
 {
   "version": "0.0.2",
-  "name": "@fullerstack/ngx-logger",
+  "name": "@playitfoward/ngx-logger",
   "description": "A Logger Utility Library for Angular",
-  "homepage": "https://github.com/neekware/fullerstack/blob/main/libs/ngx-logger/README.md",
+  "homepage": "https://github.com/neekware/playitfoward/blob/main/libs/ngx-logger/README.md",
   "keywords": [
     "ng",
     "angular",

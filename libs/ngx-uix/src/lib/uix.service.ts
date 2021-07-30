@@ -12,9 +12,9 @@ import {
   ApplicationConfig,
   ConfigService,
   DefaultApplicationConfig,
-} from '@fullerstack/ngx-config';
-import { LoggerService } from '@fullerstack/ngx-logger';
-import { MaterialService } from '@fullerstack/ngx-material';
+} from '@playitfoward/ngx-config';
+import { LoggerService } from '@playitfoward/ngx-logger';
+import { MaterialService } from '@playitfoward/ngx-material';
 import { merge as ldNestedMerge } from 'lodash-es';
 import { Subject } from 'rxjs';
 import { DeepReadonly } from 'ts-essentials';

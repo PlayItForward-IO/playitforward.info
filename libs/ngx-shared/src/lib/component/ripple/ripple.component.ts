@@ -9,7 +9,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'fullerstack-ripple',
+  selector: 'playitfoward-ripple',
   templateUrl: './ripple.component.html',
   styleUrls: ['./ripple.component.scss'],
 })

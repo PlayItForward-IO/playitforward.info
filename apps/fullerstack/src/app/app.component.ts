@@ -8,21 +8,21 @@
 
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
-import { HealthCheck } from '@fullerstack/agx-dto';
-import { AuthService } from '@fullerstack/ngx-auth';
-import { ConfigService } from '@fullerstack/ngx-config';
-import { I18nService } from '@fullerstack/ngx-i18n';
-import { LayoutService } from '@fullerstack/ngx-layout';
-import { LoggerService } from '@fullerstack/ngx-logger';
-import { StoreService } from '@fullerstack/ngx-store';
-import { SystemService } from '@fullerstack/ngx-system';
-import { UixService } from '@fullerstack/ngx-uix';
-import { UserService } from '@fullerstack/ngx-user';
+import { HealthCheck } from '@playitfoward/agx-dto';
+import { AuthService } from '@playitfoward/ngx-auth';
+import { ConfigService } from '@playitfoward/ngx-config';
+import { I18nService } from '@playitfoward/ngx-i18n';
+import { LayoutService } from '@playitfoward/ngx-layout';
+import { LoggerService } from '@playitfoward/ngx-logger';
+import { StoreService } from '@playitfoward/ngx-store';
+import { SystemService } from '@playitfoward/ngx-system';
+import { UixService } from '@playitfoward/ngx-uix';
+import { UserService } from '@playitfoward/ngx-user';
 import { Observable } from 'rxjs';
 
 @Component({
-  selector: 'fullerstack-root',
-  template: '<fullerstack-layout></fullerstack-layout>',
+  selector: 'playitfoward-root',
+  template: '<playitfoward-layout></playitfoward-layout>',
 })
 export class AppComponent implements OnInit {
   healthCheck$: Observable<HealthCheck>;

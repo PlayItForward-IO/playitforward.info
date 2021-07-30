@@ -8,8 +8,8 @@
 
 import { HttpClientModule } from '@angular/common/http';
 import { TestBed } from '@angular/core/testing';
-import { ConfigModule } from '@fullerstack/ngx-config';
-import { LoggerModule } from '@fullerstack/ngx-logger';
+import { ConfigModule } from '@playitfoward/ngx-config';
+import { LoggerModule } from '@playitfoward/ngx-logger';
 
 import { GqlService } from './gql.service';
 

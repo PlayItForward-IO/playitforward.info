@@ -6,9 +6,9 @@
  * that can be found at http://neekware.com/license/PRI.html
  */
 
-import { JWT_BEARER_REALM } from '@fullerstack/agx-dto';
-import { tryGet } from '@fullerstack/agx-util';
-import { Base64, HttpRequest, HttpResponse } from '@fullerstack/nsx-common';
+import { JWT_BEARER_REALM } from '@playitfoward/agx-dto';
+import { tryGet } from '@playitfoward/agx-util';
+import { Base64, HttpRequest, HttpResponse } from '@playitfoward/nsx-common';
 import { ExecutionContext } from '@nestjs/common';
 import { GqlExecutionContext } from '@nestjs/graphql';
 import { User } from '@prisma/client';

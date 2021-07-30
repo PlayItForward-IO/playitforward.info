@@ -8,13 +8,13 @@
 
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { I18nService, i18nExtractor as _ } from '@fullerstack/ngx-i18n';
-import { ProgressService, ValidationService } from '@fullerstack/ngx-shared';
-import { UserService } from '@fullerstack/ngx-user';
+import { I18nService, i18nExtractor as _ } from '@playitfoward/ngx-i18n';
+import { ProgressService, ValidationService } from '@playitfoward/ngx-shared';
+import { UserService } from '@playitfoward/ngx-user';
 import { Subject, distinctUntilChanged, takeUntil } from 'rxjs';
 
 @Component({
-  selector: 'fullerstack-language-change',
+  selector: 'playitfoward-language-change',
   templateUrl: './language-change.component.html',
   styleUrls: ['./language-change.component.scss'],
 })
