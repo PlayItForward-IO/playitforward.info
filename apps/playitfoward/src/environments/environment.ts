@@ -115,7 +115,7 @@ const cachify: CachifyConfig = {
 export const environment: Readonly<ApplicationConfig> = {
   version: '0.0.1',
   production: false,
-  appName: 'PlayItForward-Dev',
+  appName: 'PlayItForward',
   logger,
   i18n,
   gql,
