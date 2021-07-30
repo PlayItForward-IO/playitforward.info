@@ -5,9 +5,7 @@
 
   <div *ngIf="!authState.isLoggedIn" fxFlex></div>
 
-  <div class="branding" (click)="auth.goTo('/')">
-    <img [src]="brandImage" alt="{{ layoutState.appName | translate }}" />
-  </div>
+  <div class="branding" (click)="auth.goTo('/')">{{ layoutState.appName | translate }}</div>
 
   <div fxFlex></div>
 
