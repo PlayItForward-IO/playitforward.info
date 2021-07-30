@@ -1,4 +1,4 @@
-# @playitfoward/ngx-jwt <img style="margin-bottom: -6px" width="30" src="../../libs/agx-assets/src/lib/images/tech/playitfoward-x250.png">
+# @playitforward/ngx-jwt <img style="margin-bottom: -6px" width="30" src="../../libs/agx-assets/src/lib/images/tech/playitforward-x250.png">
 
 **A simple JWT library for Angular applications**
 
@@ -13,23 +13,23 @@
 
 This library helps with verification and payload extraction of JWT tokens
 
-**@playitfoward/ngx-jwt** attempts to streamline the jwt operation of your Angular application, while promoting DRY **DRY**.
+**@playitforward/ngx-jwt** attempts to streamline the jwt operation of your Angular application, while promoting DRY **DRY**.
 
 # How to install
 
-    npm i @playitfoward/ngx-jwt |OR| yarn add @playitfoward/ngx-jwt
+    npm i @playitforward/ngx-jwt |OR| yarn add @playitforward/ngx-jwt
 
 # How to use
 
 ```typescript
 // In your environment{prod,staging}.ts
 
-import { ApplicationConfig } from '@playitfoward/ngx-config';
-import { LogLevel } from '@playitfoward/ngx-logger';
+import { ApplicationConfig } from '@playitforward/ngx-config';
+import { LogLevel } from '@playitforward/ngx-logger';
 
 export const environment: ApplicationConfig = {
   // app name
-  appName: '@playitfoward/ngx-jwt',
+  appName: '@playitforward/ngx-jwt',
   // production, staging or development
   production: false,
   log: {
@@ -48,9 +48,9 @@ export const environment: ApplicationConfig = {
 ```typescript
 // In your app.module.ts
 
-import { ConfigModule } from '@playitfoward/ngx-config';
-import { LoggerModule } from '@playitfoward/ngx-logger';
-import { JwtModule } from '@playitfoward/ngx-jwt';
+import { ConfigModule } from '@playitforward/ngx-config';
+import { LoggerModule } from '@playitforward/ngx-logger';
+import { JwtModule } from '@playitforward/ngx-jwt';
 
 import { environment } from '../environments/environment';
 
@@ -71,16 +71,16 @@ export class AppModule {}
 // In your app.module.ts
 
 import { Component } from '@angular/core';
-import { ConfigService } from '@playitfoward/ngx-config';
-import { LoggerService } from '@playitfoward/ngx-logger';
-import { JwtService } from '@playitfoward/ngx-jwt';
+import { ConfigService } from '@playitforward/ngx-config';
+import { LoggerService } from '@playitforward/ngx-logger';
+import { JwtService } from '@playitforward/ngx-jwt';
 
 @Component({
-  selector: 'playitfoward-root',
+  selector: 'playitforward-root',
   template: `<h1>Welcome to {{ title }}!</h1>`,
 })
 export class AppComponent {
-  title = 'playitfoward';
+  title = 'playitforward';
   options = {};
   constructor(
     readonly config: ConfigService,
@@ -107,7 +107,7 @@ export class AppComponent {
 
 # License
 
-Released under a ([MIT](https://raw.githubusercontent.com/neekware/playitfoward/main/LICENSE)) license.
+Released under a ([MIT](https://raw.githubusercontent.com/neekware/playitforward/main/LICENSE)) license.
 
 # Version
 
@@ -117,11 +117,11 @@ X.Y.Z Version
     `MINOR` version -- adding functionality in a backwards-compatible manner
     `PATCH` version -- making backwards-compatible bug fixes
 
-[status-image]: https://github.com/neekware/playitfoward/actions/workflows/ci.yml/badge.svg
-[status-link]: https://github.com/neekware/playitfoward/actions/workflows/ci.yml
-[version-image]: https://img.shields.io/npm/v/@playitfoward/ngx-jwt.svg
-[version-link]: https://www.npmjs.com/package/@playitfoward/ngx-jwt
-[coverage-image]: https://coveralls.io/repos/neekware/playitfoward/badge.svg
-[coverage-link]: https://coveralls.io/r/neekware/playitfoward
-[download-image]: https://img.shields.io/npm/dm/@playitfoward/ngx-jwt.svg
-[download-link]: https://www.npmjs.com/package/@playitfoward/ngx-jwt
+[status-image]: https://github.com/neekware/playitforward/actions/workflows/ci.yml/badge.svg
+[status-link]: https://github.com/neekware/playitforward/actions/workflows/ci.yml
+[version-image]: https://img.shields.io/npm/v/@playitforward/ngx-jwt.svg
+[version-link]: https://www.npmjs.com/package/@playitforward/ngx-jwt
+[coverage-image]: https://coveralls.io/repos/neekware/playitforward/badge.svg
+[coverage-link]: https://coveralls.io/r/neekware/playitforward
+[download-image]: https://img.shields.io/npm/dm/@playitforward/ngx-jwt.svg
+[download-link]: https://www.npmjs.com/package/@playitforward/ngx-jwt

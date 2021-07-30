@@ -7,10 +7,10 @@
  */
 
 import { ChangeDetectionStrategy, Component, Input, ViewEncapsulation } from '@angular/core';
-import { I18nService } from '@playitfoward/ngx-i18n';
+import { I18nService } from '@playitforward/ngx-i18n';
 
 @Component({
-  selector: 'playitfoward-alert',
+  selector: 'playitforward-alert',
   templateUrl: './alert.component.html',
   styleUrls: ['./alert.component.scss'],
   encapsulation: ViewEncapsulation.Emulated,

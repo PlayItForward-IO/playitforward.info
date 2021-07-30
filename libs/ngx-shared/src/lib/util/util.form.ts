@@ -7,7 +7,7 @@
  */
 
 import { FormControl } from '@angular/forms';
-import { tryGet } from '@playitfoward/agx-util';
+import { tryGet } from '@playitforward/agx-util';
 
 export function getControl(name: string): FormControl {
   return tryGet<FormControl>(() => this.form.controls[name] as FormControl);

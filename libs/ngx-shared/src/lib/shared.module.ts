@@ -9,8 +9,8 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { I18nModule } from '@playitfoward/ngx-i18n';
-import { MaterialModule } from '@playitfoward/ngx-material';
+import { I18nModule } from '@playitforward/ngx-i18n';
+import { MaterialModule } from '@playitforward/ngx-material';
 
 import { AlertComponent } from './component/alert';
 import { BlobComponent } from './component/blob/blob.component';

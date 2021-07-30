@@ -7,9 +7,9 @@
       "lodash-es": "lodash-es",
       "uuid": "uuid",
       "object-hash": "object-hash",
-      "@playitfoward/agx-store": "@playitfoward/agx-store",
-      "@playitfoward/ngx-config": "@playitfoward/ngx-config",
-      "@playitfoward/ngx-logger": "@playitfoward/ngx-logger"
+      "@playitforward/agx-store": "@playitforward/agx-store",
+      "@playitforward/ngx-config": "@playitforward/ngx-config",
+      "@playitforward/ngx-logger": "@playitforward/ngx-logger"
     }
   }
 }

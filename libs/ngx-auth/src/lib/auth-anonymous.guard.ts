@@ -18,7 +18,7 @@ import {
   UrlSegment,
   UrlTree,
 } from '@angular/router';
-import { LoggerService } from '@playitfoward/ngx-logger';
+import { LoggerService } from '@playitforward/ngx-logger';
 import { Observable } from 'rxjs';
 
 import { AuthService } from './auth.service';

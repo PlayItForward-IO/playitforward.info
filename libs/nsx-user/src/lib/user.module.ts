@@ -6,11 +6,11 @@
  * that can be found at http://neekware.com/license/PRI.html
  */
 
-import { AuthModule } from '@playitfoward/nsx-auth';
-import { I18nModule } from '@playitfoward/nsx-i18n';
-import { MailerModule } from '@playitfoward/nsx-mailer';
-import { PrismaModule } from '@playitfoward/nsx-prisma';
 import { Global, Module } from '@nestjs/common';
+import { AuthModule } from '@playitforward/nsx-auth';
+import { I18nModule } from '@playitforward/nsx-i18n';
+import { MailerModule } from '@playitforward/nsx-mailer';
+import { PrismaModule } from '@playitforward/nsx-prisma';
 
 import { UserResolver } from './user.resolver';
 import { UserService } from './user.service';

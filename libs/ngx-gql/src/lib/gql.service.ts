@@ -13,8 +13,8 @@ import {
   ApplicationConfig,
   ConfigService,
   DefaultApplicationConfig,
-} from '@playitfoward/ngx-config';
-import { LoggerService } from '@playitfoward/ngx-logger';
+} from '@playitforward/ngx-config';
+import { LoggerService } from '@playitforward/ngx-logger';
 import { merge as ldNestedMerge } from 'lodash-es';
 import { DeepReadonly } from 'ts-essentials';
 

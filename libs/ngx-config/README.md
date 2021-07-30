@@ -1,4 +1,4 @@
-# @playitfoward/ngx-config <img style="margin-bottom: -6px" width="30" src="../../libs/agx-assets/src/lib/images/tech/playitfoward-x250.png">
+# @playitforward/ngx-config <img style="margin-bottom: -6px" width="30" src="../../libs/agx-assets/src/lib/images/tech/playitforward-x250.png">
 
 **An Angular Configuration Library - Handles local and remote configurations**
 
@@ -15,20 +15,20 @@ In general, passing the `environment.ts` into your publishable libraries may not
 
 Till `Angular` natively supports something like, `import { environment } from '@angular/core/environment'`, your publishable libs must implement an `InjectionToken` to receive the `environment` object and provide it with an `APP_INITIALIZER` directly during the app's bootstrapping.
 
-Alternatively, you can have a simple lib such as `@playitfoward/ngx-config` to receive the `environment` object and provide it to all other publishable libs via an injectable service such as `ConfigService`.
+Alternatively, you can have a simple lib such as `@playitforward/ngx-config` to receive the `environment` object and provide it to all other publishable libs via an injectable service such as `ConfigService`.
 
-**@playitfoward/ngx-config** attempts to streamline the sharing of the content of the `environment.ts` while promoting DRY **DRY**.
+**@playitforward/ngx-config** attempts to streamline the sharing of the content of the `environment.ts` while promoting DRY **DRY**.
 
 # How to install
 
-    npm i @playitfoward/ngx-config |OR| yarn add @playitfoward/ngx-config
+    npm i @playitforward/ngx-config |OR| yarn add @playitforward/ngx-config
 
 # How to use
 
 ```typescript
 // In your environment{prod,staging}.ts
 
-import { ApplicationConfig, HttpMethod } from '@playitfoward/ngx-config';
+import { ApplicationConfig, HttpMethod } from '@playitforward/ngx-config';
 
 export const environment: Readonly<ApplicationConfig> = {
   // production, staging or development
@@ -41,7 +41,7 @@ export const environment: Readonly<ApplicationConfig> = {
 ```typescript
 // In your app.module.ts
 
-import { ConfigModule } from '@playitfoward/ngx-config';
+import { ConfigModule } from '@playitforward/ngx-config';
 import { environment } from '../environments/environment';
 
 @NgModule({
@@ -56,10 +56,10 @@ export class AppModule {}
 // In your app.component.ts or (some.service.ts)
 
 import { Component } from '@angular/core';
-import { ConfigService } from '@playitfoward/ngx-config';
+import { ConfigService } from '@playitforward/ngx-config';
 
 @Component({
-  selector: 'playitfoward-root',
+  selector: 'playitforward-root',
 })
 export class AppComponent {
   title: string;
@@ -74,12 +74,12 @@ export class AppComponent {
 
 - Remote configuration
 
-`@playitfoward/ngx-config` can also be used to fetch remote configuration prior to start of an Angular app.
+`@playitforward/ngx-config` can also be used to fetch remote configuration prior to start of an Angular app.
 
 ```typescript
 // In your environment{prod,staging}.ts
 
-import { ApplicationConfig, HttpMethod } from '@playitfoward/ngx-config';
+import { ApplicationConfig, HttpMethod } from '@playitforward/ngx-config';
 
 export const environment: ApplicationConfig = {
   // production, staging or development
@@ -108,7 +108,7 @@ export const environment: ApplicationConfig = {
 ```typescript
 // In your app.module.ts
 
-import { ConfigModule } from '@playitfoward/ngx-config';
+import { ConfigModule } from '@playitforward/ngx-config';
 import { environment } from '../environments/environment';
 
 @NgModule({
@@ -123,11 +123,11 @@ export class AppModule {}
 // In your app.component.ts or (some.service.ts)
 
 import { Component } from '@angular/core';
-import { ConfigService } from '@playitfoward/ngx-config';
+import { ConfigService } from '@playitforward/ngx-config';
 import { merge } from 'lodash';
 
 @Component({
-  selector: 'playitfoward-root'
+  selector: 'playitforward-root'
 })
 export class AppComponent {
   title: string;
@@ -152,14 +152,14 @@ X.Y.Z Version
     `MINOR` version -- adding functionality in a backwards-compatible manner
     `PATCH` version -- making backwards-compatible bug fixes
 
-[status-image]: https://github.com/neekware/playitfoward/actions/workflows/ci.yml/badge.svg
-[status-link]: https://github.com/neekware/playitfoward/actions/workflows/ci.yml
-[version-image]: https://img.shields.io/npm/v/@playitfoward/ngx-config.svg
-[version-link]: https://www.npmjs.com/package/@playitfoward/ngx-config
-[coverage-image]: https://coveralls.io/repos/neekware/playitfoward/badge.svg
-[coverage-link]: https://coveralls.io/r/neekware/playitfoward
-[download-image]: https://img.shields.io/npm/dm/@playitfoward/ngx-config.svg
-[download-link]: https://www.npmjs.com/package/@playitfoward/ngx-config
+[status-image]: https://github.com/neekware/playitforward/actions/workflows/ci.yml/badge.svg
+[status-link]: https://github.com/neekware/playitforward/actions/workflows/ci.yml
+[version-image]: https://img.shields.io/npm/v/@playitforward/ngx-config.svg
+[version-link]: https://www.npmjs.com/package/@playitforward/ngx-config
+[coverage-image]: https://coveralls.io/repos/neekware/playitforward/badge.svg
+[coverage-link]: https://coveralls.io/r/neekware/playitforward
+[download-image]: https://img.shields.io/npm/dm/@playitforward/ngx-config.svg
+[download-link]: https://www.npmjs.com/package/@playitforward/ngx-config
 
 # Sponsors
 

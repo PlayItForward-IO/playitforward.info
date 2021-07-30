@@ -6,8 +6,8 @@
  * that can be found at http://neekware.com/license/PRI.html
  */
 
-import { GqlStatusDto } from '@playitfoward/nsx-common';
 import { Directive, Field, InputType, ObjectType } from '@nestjs/graphql';
+import { GqlStatusDto } from '@playitforward/nsx-common';
 import { IsEmail, IsNotEmpty, MinLength } from 'class-validator';
 
 import { AUTH_PASSWORD_MIN_LENGTH } from './auth.constant';

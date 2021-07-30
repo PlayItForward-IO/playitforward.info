@@ -15,7 +15,7 @@ import { filter, map, share, takeUntil } from 'rxjs/operators';
 import { LayoutService } from '../layout.service';
 
 @Component({
-  selector: 'playitfoward-notification',
+  selector: 'playitforward-notification',
   templateUrl: './notification.component.html',
   styleUrls: ['./notification.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,

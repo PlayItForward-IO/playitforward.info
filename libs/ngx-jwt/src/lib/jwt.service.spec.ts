@@ -9,8 +9,8 @@
 import { HttpClientModule } from '@angular/common/http';
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { TestBed, getTestBed } from '@angular/core/testing';
-import { ApplicationConfig, ConfigModule } from '@playitfoward/ngx-config';
-import { LoggerModule } from '@playitfoward/ngx-logger';
+import { ApplicationConfig, ConfigModule } from '@playitforward/ngx-config';
+import { LoggerModule } from '@playitforward/ngx-logger';
 import { isMatch as ldIsMatch } from 'lodash-es';
 import { DeepReadonly } from 'ts-essentials';
 
@@ -54,7 +54,7 @@ const validPayload = () => {
 
 const applicationConfig: DeepReadonly<ApplicationConfig> = {
   version: '1.0.0',
-  appName: '@playitfoward/ngx-jwt',
+  appName: '@playitforward/ngx-jwt',
   production: false,
 };
 

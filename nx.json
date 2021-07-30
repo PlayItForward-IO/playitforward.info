@@ -13,7 +13,7 @@
   "affected": {
     "defaultBase": "main"
   },
-  "npmScope": "playitfoward",
+  "npmScope": "playitforward",
   "tasksRunnerOptions": {
     "default": {
       "runner": "@nrwl/nx-cloud",
@@ -41,13 +41,13 @@
     "api": {
       "tags": ["scope:api-server"]
     },
-    "playitfoward": {
-      "tags": ["scope:playitfoward-client"],
+    "playitforward": {
+      "tags": ["scope:playitforward-client"],
       "implicitDependencies": ["agx-assets"]
     },
-    "playitfoward-e2e": {
-      "tags": ["scope:playitfoward-e2e"],
-      "implicitDependencies": ["playitfoward"]
+    "playitforward-e2e": {
+      "tags": ["scope:playitforward-e2e"],
+      "implicitDependencies": ["playitforward"]
     },
     "ngx-auth": {
       "tags": ["scope:ngx-util"]

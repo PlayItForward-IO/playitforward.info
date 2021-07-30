@@ -34,7 +34,7 @@ export const DefaultRemoteConfig: DeepReadonly<RemoteConfig> = {
 export const DefaultApplicationConfig: DeepReadonly<ApplicationConfig> = {
   production: false,
   version: '1.0.0',
-  appName: '@playitfoward/ngx-config',
+  appName: '@playitforward/ngx-config',
   localConfig: DefaultBaseConfig,
   remoteConfig: DefaultRemoteConfig,
   remoteData: {},

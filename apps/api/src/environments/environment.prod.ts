@@ -6,12 +6,12 @@
  * that can be found at http://neekware.com/license/PRI.html
  */
 
-import { SecurityConfig } from '@playitfoward/nsx-auth';
-import { I18nConfig } from '@playitfoward/nsx-i18n';
-import { MailerConfig } from '@playitfoward/nsx-mailer';
 import { NestApplicationOptions } from '@nestjs/common';
 import { ConfigModuleOptions } from '@nestjs/config';
 import { GqlModuleOptions } from '@nestjs/graphql';
+import { SecurityConfig } from '@playitforward/nsx-auth';
+import { I18nConfig } from '@playitforward/nsx-i18n';
+import { MailerConfig } from '@playitforward/nsx-mailer';
 
 const serverConfig: NestApplicationOptions = {
   logger: ['error', 'warn'],
@@ -52,9 +52,9 @@ const i18nConfig: I18nConfig = {
 };
 
 export const environment = {
-  siteName: 'playitfoward',
-  siteUrl: 'https://playitfoward.net',
-  siteSupportEmail: 'support@playitfoward.net',
+  siteName: 'PlayItForward',
+  siteUrl: 'https://playitforward.io',
+  siteSupportEmail: 'support@playitforward.io',
   production: false,
   port: 4301,
   prefix: 'api',

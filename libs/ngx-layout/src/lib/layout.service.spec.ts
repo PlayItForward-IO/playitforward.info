@@ -7,13 +7,13 @@
  */
 
 import { TestBed, inject } from '@angular/core/testing';
-import { ApplicationConfig, ConfigModule } from '@playitfoward/ngx-config';
-import { LoggerModule } from '@playitfoward/ngx-logger';
+import { ApplicationConfig, ConfigModule } from '@playitforward/ngx-config';
+import { LoggerModule } from '@playitforward/ngx-logger';
 
 import { LayoutService } from './layout.service';
 
 export const applicationConfig: ApplicationConfig = {
-  appName: 'playitfoward',
+  appName: 'playitforward',
   production: false,
   log: {
     enabled: true,

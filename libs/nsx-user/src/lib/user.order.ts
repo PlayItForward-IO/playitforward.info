@@ -6,8 +6,8 @@
  * that can be found at http://neekware.com/license/PRI.html
  */
 
-import { Order } from '@playitfoward/nsx-common';
 import { Field, InputType, registerEnumType } from '@nestjs/graphql';
+import { Order } from '@playitforward/nsx-common';
 
 export enum UserOrderField {
   id = 'id',

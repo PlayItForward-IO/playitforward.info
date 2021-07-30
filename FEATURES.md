@@ -1,4 +1,4 @@
-# playitfoward - Visual Features
+# playitforward - Visual Features
 
 <br/>
 

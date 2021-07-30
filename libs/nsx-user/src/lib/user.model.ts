@@ -6,8 +6,8 @@
  * that can be found at http://neekware.com/license/PRI.html
  */
 
-import { BaseModelDto, Paginated } from '@playitfoward/nsx-common';
 import { Directive, Field, ID, InputType, ObjectType } from '@nestjs/graphql';
+import { BaseModelDto, Paginated } from '@playitforward/nsx-common';
 import { Permission, Role, User } from '@prisma/client';
 import { IsEmail } from 'class-validator';
 

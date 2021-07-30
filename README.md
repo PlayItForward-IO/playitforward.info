@@ -1,4 +1,4 @@
-# playitfoward <img style="margin-bottom: -6px" width="30" src="libs/agx-assets/src/lib/images/tech/playitfoward-x250.png">
+# playitforward <img style="margin-bottom: -6px" width="30" src="libs/agx-assets/src/lib/images/tech/playitforward-x250.png">
 
 [![status-image]][status-link]
 [![coverage-image]][coverage-link]
@@ -46,7 +46,7 @@ Screenshots: ([screenshots](FEATURES.md)) // Demo: ( [avidtrader.co](https://app
 
 ### The mono-repo was created via Nrwl/Nx.
 
-npx create-nx-workspace playitfoward
+npx create-nx-workspace playitforward
 
 ### Powered By
 
@@ -102,14 +102,14 @@ npx create-nx-workspace playitfoward
 
 ```bash
 # Clone the repo
-git clone https://github.com/neekware/playitfoward.git
+git clone https://github.com/neekware/playitforward.git
 
 # Install the dependencies
-cd playitfoward
+cd playitforward
 yarn install
 
 # Create a database (postgres)
-createdb playitfoward
+createdb playitforward
 
 # Copy environment variables and update
 cp env.example .env
@@ -124,7 +124,7 @@ yarn prisma:seed
 yarn start:api
 
 # Start the frontend (in terminal #2)
-yarn start:playitfoward
+yarn start:playitforward
 
 # Visit frontend (on mac use open, on windows, just type it in)
 open http://localhost:4200
@@ -137,7 +137,7 @@ open http://localhost:4200
 
 ```bash
 # Webpack analyzer
-yarn nx build playitfoward --stats-json --prod && yarn stats
+yarn nx build playitforward --stats-json --prod && yarn stats
 
 # Format changed files
 yarn format:all
@@ -168,7 +168,7 @@ yarn affected:dep-graph --base=<branch-name> --head=HEAD
 
 ## License
 
-- Released under a ([MIT](https://raw.githubusercontent.com/neekware/playitfoward/main/LICENSE)) license.
+- Released under a ([MIT](https://raw.githubusercontent.com/neekware/playitforward/main/LICENSE)) license.
 
 ## Version
 
@@ -183,8 +183,8 @@ X.Y.Z Version
 ```txt<br>--------------------------------------------------------------------------------
  Language             Files        Lines        Blank      Comment         Code
 --------------------------------------------------------------------------------
- TypeScript             380        20278         2302         3865        14111
- JSON                   140         4959            0            0         4959
+ TypeScript             380        20283         2302         3865        14116
+ JSON                   140         4962            0            0         4962
  Markdown               103         2469          654            0         1815
  HTML                    33         1444          113            5         1326
  Sass                    55         1455          141           35         1279
@@ -194,7 +194,7 @@ X.Y.Z Version
  SQL                      1           80           15           13           52
  Toml                     1            3            0            2            1
 --------------------------------------------------------------------------------
- Total                  753        31507         3266         3968        24273
+ Total                  753        31515         3266         3968        24281
 --------------------------------------------------------------------------------
 ```
 
@@ -202,9 +202,9 @@ X.Y.Z Version
 
 [ [Neekware Inc.](http://neekware.com) ] [ [Nx](https://nx.dev) ]
 
-[status-image]: https://github.com/neekware/playitfoward/actions/workflows/ci.yml/badge.svg
-[status-link]: https://github.com/neekware/playitfoward/actions/workflows/ci.yml
-[version-image]: https://img.shields.io/npm/v/@playitfoward.svg
-[version-link]: https://www.npmjs.com/settings/playitfoward/packages
-[coverage-image]: https://coveralls.io/repos/neekware/playitfoward/badge.svg
-[coverage-link]: https://coveralls.io/r/neekware/playitfoward
+[status-image]: https://github.com/neekware/playitforward/actions/workflows/ci.yml/badge.svg
+[status-link]: https://github.com/neekware/playitforward/actions/workflows/ci.yml
+[version-image]: https://img.shields.io/npm/v/@playitforward.svg
+[version-link]: https://www.npmjs.com/settings/playitforward/packages
+[coverage-image]: https://coveralls.io/repos/neekware/playitforward/badge.svg
+[coverage-link]: https://coveralls.io/r/neekware/playitforward

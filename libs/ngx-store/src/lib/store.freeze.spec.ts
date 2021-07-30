@@ -6,7 +6,7 @@
  * that can be found at http://neekware.com/license/PRI.html
  */
 
-import { deepFreeze } from '@playitfoward/agx-store';
+import { deepFreeze } from '@playitforward/agx-store';
 
 describe('DeepFreeze', () => {
   it('should mutate an unfrozen flat object', () => {

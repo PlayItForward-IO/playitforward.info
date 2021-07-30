@@ -1,8 +1,8 @@
 {
   "version": "0.0.1",
-  "name": "@playitfoward/ngx-cachify",
+  "name": "@playitforward/ngx-cachify",
   "description": "A Translation Library for Angular",
-  "homepage": "https://github.com/neekware/playitfoward/blob/main/libs/ngx-cachify/README.md",
+  "homepage": "https://github.com/neekware/playitforward/blob/main/libs/ngx-cachify/README.md",
   "keywords": [
     "ng",
     "angular",

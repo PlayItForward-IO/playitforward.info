@@ -8,8 +8,8 @@
 
 import { AfterViewInit, Directive, ElementRef, Input, OnDestroy, OnInit } from '@angular/core';
 import { AbstractControl } from '@angular/forms';
-import { tryGet } from '@playitfoward/agx-util';
-import { I18nService } from '@playitfoward/ngx-i18n';
+import { tryGet } from '@playitforward/agx-util';
+import { I18nService } from '@playitforward/ngx-i18n';
 import { Subject, merge } from 'rxjs';
 import { debounceTime, distinctUntilChanged, first, takeUntil } from 'rxjs/operators';
 

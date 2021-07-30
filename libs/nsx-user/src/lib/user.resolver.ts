@@ -6,7 +6,9 @@
  * that can be found at http://neekware.com/license/PRI.html
  */
 
-import { ApiError } from '@playitfoward/agx-dto';
+import { ForbiddenException, NotFoundException, UseGuards } from '@nestjs/common';
+import { Args, Mutation, Query, Resolver } from '@nestjs/graphql';
+import { ApiError } from '@playitforward/agx-dto';
 import {
   AuthGuardAnonymousGql,
   AuthGuardGql,
@@ -14,13 +16,11 @@ import {
   LocaleDecorator,
   UseRoles,
   UserDecorator,
-} from '@playitfoward/nsx-auth';
-import { PaginationArgs } from '@playitfoward/nsx-common';
-import { I18nService } from '@playitfoward/nsx-i18n';
-import { MailerService } from '@playitfoward/nsx-mailer';
-import { PrismaService } from '@playitfoward/nsx-prisma';
-import { ForbiddenException, NotFoundException, UseGuards } from '@nestjs/common';
-import { Args, Mutation, Query, Resolver } from '@nestjs/graphql';
+} from '@playitforward/nsx-auth';
+import { PaginationArgs } from '@playitforward/nsx-common';
+import { I18nService } from '@playitforward/nsx-i18n';
+import { MailerService } from '@playitforward/nsx-mailer';
+import { PrismaService } from '@playitforward/nsx-prisma';
 import { Role, User } from '@prisma/client';
 
 import { UserDto, UserSelfUpdateInput, UserUpdateInput, UserWhereByIdInput } from './user.model';

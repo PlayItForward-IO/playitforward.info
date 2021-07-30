@@ -1,4 +1,4 @@
-# @playitfoward/ngx-subify <img style="margin-bottom: -6px" width="30" src="../../libs/agx-assets/src/lib/images/tech/playitfoward-x250.png">
+# @playitforward/ngx-subify <img style="margin-bottom: -6px" width="30" src="../../libs/agx-assets/src/lib/images/tech/playitforward-x250.png">
 
 **A simple subscription manager library for Angular applications**
 
@@ -13,11 +13,11 @@
 
 Angular applications may rely heavily on RxJS in order to implement reactive components and services. Maintaining and tracking of all active subscriptions may be overwhelming at times. As such, Subify attempts to streamline subscription and make the cleanup easier.
 
-**@playitfoward/ngx-subify** attempts to streamline the subscription manager of your application, while promoting DRY **DRY**.
+**@playitforward/ngx-subify** attempts to streamline the subscription manager of your application, while promoting DRY **DRY**.
 
 # How to install
 
-    npm i @playitfoward/ngx-subify |OR| yarn add @playitfoward/ngx-subify
+    npm i @playitforward/ngx-subify |OR| yarn add @playitforward/ngx-subify
 
 # How to use
 
@@ -38,7 +38,7 @@ There are three ways to track and cancel your subscriptions.
 // in your component - Using SubManager
 import { Component } from '@angular/core';
 import { interval } from 'rxjs';
-import { SubManager } from '@playitfoward/subify';
+import { SubManager } from '@playitforward/subify';
 
 @Component({
   selector: 'home',
@@ -76,7 +76,7 @@ export class HomeComponent implements OnDestroy {
 import { Component } from '@angular/core';
 import { interval, Subscription } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
-import { SubService } from '@playitfoward/subify';
+import { SubService } from '@playitforward/subify';
 
 @Component({
   selector: 'home',
@@ -113,7 +113,7 @@ export class HomeComponent {
 // in your component - Using Subscribable
 import { Component, OnDestroy } from '@angular/core';
 import { interval, Subscription } from 'rxjs';
-import { SubifyDecorator } from '@playitfoward/subify';
+import { SubifyDecorator } from '@playitforward/subify';
 
 @Component({
   selector: 'home',
@@ -144,7 +144,7 @@ export class HomeComponent implements OnDestroy {
 import { Component, OnDestroy } from '@angular/core';
 import { interval } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
-import { SubifyDecorator } from '@playitfoward/subify';
+import { SubifyDecorator } from '@playitforward/subify';
 
 @Component({
   selector: 'home',
@@ -177,7 +177,7 @@ export class HomeComponent implements OnDestroy {
 import { Component, Input, OnDestroy } from '@angular/core';
 import { interval, Subject, Subscription } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
-import { SubifyDecorator } from '@playitfoward/subify';
+import { SubifyDecorator } from '@playitforward/subify';
 
 @Component({
   selector: 'home',
@@ -212,7 +212,7 @@ export class HomeComponent implements OnDestroy {
 // in your component - Using SubifyDecorator
 import { Component, Input, OnDestroy } from '@angular/core';
 import { interval, Subscription } from 'rxjs';
-import { SubifyDecorator } from '@playitfoward/subify';
+import { SubifyDecorator } from '@playitforward/subify';
 
 @Component({
   selector: 'home',
@@ -255,7 +255,7 @@ it might still point to it directly or via some `actions`. If so, it may corrupt
 
 # License
 
-Released under a ([MIT](https://raw.githubusercontent.com/neekware/playitfoward/main/LICENSE)) license.
+Released under a ([MIT](https://raw.githubusercontent.com/neekware/playitforward/main/LICENSE)) license.
 
 # Version
 
@@ -265,11 +265,11 @@ X.Y.Z Version
     `MINOR` version -- adding functionality in a backwards-compatible manner
     `PATCH` version -- making backwards-compatible bug fixes
 
-[status-image]: https://github.com/neekware/playitfoward/actions/workflows/ci.yml/badge.svg
-[status-link]: https://github.com/neekware/playitfoward/actions/workflows/ci.yml
-[version-image]: https://img.shields.io/npm/v/@playitfoward/ngx-subify.svg
-[version-link]: https://www.npmjs.com/package/@playitfoward/ngx-subify
-[coverage-image]: https://coveralls.io/repos/neekware/playitfoward/badge.svg
-[coverage-link]: https://coveralls.io/r/neekware/playitfoward
-[download-image]: https://img.shields.io/npm/dm/@playitfoward/ngx-subify.svg
-[download-link]: https://www.npmjs.com/package/@playitfoward/ngx-subify
+[status-image]: https://github.com/neekware/playitforward/actions/workflows/ci.yml/badge.svg
+[status-link]: https://github.com/neekware/playitforward/actions/workflows/ci.yml
+[version-image]: https://img.shields.io/npm/v/@playitforward/ngx-subify.svg
+[version-link]: https://www.npmjs.com/package/@playitforward/ngx-subify
+[coverage-image]: https://coveralls.io/repos/neekware/playitforward/badge.svg
+[coverage-link]: https://coveralls.io/r/neekware/playitforward
+[download-image]: https://img.shields.io/npm/dm/@playitforward/ngx-subify.svg
+[download-link]: https://www.npmjs.com/package/@playitforward/ngx-subify

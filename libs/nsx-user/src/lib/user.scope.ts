@@ -8,7 +8,7 @@
 
 /* eslint-disable @typescript-eslint/no-unused-vars */
 
-import { tryGet } from '@playitfoward/agx-util';
+import { tryGet } from '@playitforward/agx-util';
 import { Role, User } from '@prisma/client';
 
 export class UserDataAccessScope {

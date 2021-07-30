@@ -6,9 +6,9 @@
  * that can be found at http://neekware.com/license/PRI.html
  */
 
-import { ApiConstants } from '@playitfoward/agx-dto';
-import { GqlStatusDto } from '@playitfoward/nsx-common';
 import { Directive, Field, InputType, ObjectType } from '@nestjs/graphql';
+import { ApiConstants } from '@playitforward/agx-dto';
+import { GqlStatusDto } from '@playitforward/nsx-common';
 import { IsEmail, IsNotEmpty, MinLength } from 'class-validator';
 
 @ObjectType()

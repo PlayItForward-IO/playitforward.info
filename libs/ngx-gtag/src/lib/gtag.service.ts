@@ -14,8 +14,8 @@ import {
   ApplicationConfig,
   ConfigService,
   DefaultApplicationConfig,
-} from '@playitfoward/ngx-config';
-import { LoggerService } from '@playitfoward/ngx-logger';
+} from '@playitforward/ngx-config';
+import { LoggerService } from '@playitforward/ngx-logger';
 import { merge as ldNestedMerge } from 'lodash-es';
 import { Subject } from 'rxjs';
 import { filter, map, takeUntil } from 'rxjs/operators';

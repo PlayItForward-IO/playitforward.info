@@ -6,11 +6,11 @@
  * that can be found at http://neekware.com/license/PRI.html
  */
 
-import { ApiError, JwtDto } from '@playitfoward/agx-dto';
-import { HttpRequest, HttpResponse } from '@playitfoward/nsx-common';
-import { PrismaService } from '@playitfoward/nsx-prisma';
 import { BadRequestException, Injectable, Logger } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
+import { ApiError, JwtDto } from '@playitforward/agx-dto';
+import { HttpRequest, HttpResponse } from '@playitforward/nsx-common';
+import { PrismaService } from '@playitforward/nsx-prisma';
 import { Permission, Role, User } from '@prisma/client';
 import { compare, hash } from 'bcrypt';
 import * as jwt from 'jsonwebtoken';

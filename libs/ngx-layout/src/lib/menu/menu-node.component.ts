@@ -8,10 +8,10 @@
 
 import { Component, Input } from '@angular/core';
 import { Router } from '@angular/router';
-import { MenuNode } from '@playitfoward/ngx-menu';
+import { MenuNode } from '@playitforward/ngx-menu';
 
 @Component({
-  selector: 'playitfoward-menu-node',
+  selector: 'playitforward-menu-node',
   templateUrl: './menu-node.component.html',
   styleUrls: ['./menu-node.component.scss'],
 })

@@ -8,7 +8,7 @@
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { HttpClient } from '@angular/common/http';
-import { tryGet } from '@playitfoward/agx-util';
+import { tryGet } from '@playitforward/agx-util';
 import { cloneDeep } from 'lodash-es';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';

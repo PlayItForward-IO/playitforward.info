@@ -5,8 +5,8 @@
     "entryFile": "src/index.ts",
     "umdModuleIds": {
       "lodash-es": "lodash-es",
-      "@playitfoward/ngx-config": "@playitfoward/ngx-config",
-      "@playitfoward/ngx-logger": "@playitfoward/ngx-logger"
+      "@playitforward/ngx-config": "@playitforward/ngx-config",
+      "@playitforward/ngx-logger": "@playitforward/ngx-logger"
     }
   }
 }

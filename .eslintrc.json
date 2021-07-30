@@ -22,7 +22,7 @@
                 ]
               },
               {
-                "sourceTag": "scope:playitfoward-client",
+                "sourceTag": "scope:playitforward-client",
                 "onlyDependOnLibsWithTags": [
                   "scope:agx-data",
                   "scope:agx-util",

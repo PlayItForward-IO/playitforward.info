@@ -4,7 +4,7 @@
     "defaultCollection": "@nrwl/angular",
     "packageManager": "yarn"
   },
-  "defaultProject": "playitfoward",
+  "defaultProject": "playitforward",
   "schematics": {
     "@nrwl/angular": {
       "application": {
@@ -199,24 +199,24 @@
         }
       }
     },
-    "playitfoward": {
+    "playitforward": {
       "projectType": "application",
-      "root": "apps/playitfoward",
-      "sourceRoot": "apps/playitfoward/src",
-      "prefix": "playitfoward",
+      "root": "apps/playitforward",
+      "sourceRoot": "apps/playitforward/src",
+      "prefix": "playitforward",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "allowedCommonJsDependencies": ["zen-observable", "graphql-tag"],
-            "outputPath": "dist/apps/playitfoward",
-            "index": "apps/playitfoward/src/index.html",
-            "main": "apps/playitfoward/src/main.ts",
-            "polyfills": "apps/playitfoward/src/polyfills.ts",
-            "tsConfig": "apps/playitfoward/tsconfig.app.json",
+            "outputPath": "dist/apps/playitforward",
+            "index": "apps/playitforward/src/index.html",
+            "main": "apps/playitforward/src/main.ts",
+            "polyfills": "apps/playitforward/src/polyfills.ts",
+            "tsConfig": "apps/playitforward/tsconfig.app.json",
             "assets": [
-              "apps/playitfoward/src/favicon.ico",
-              "apps/playitfoward/src/assets",
+              "apps/playitforward/src/favicon.ico",
+              "apps/playitforward/src/assets",
               {
                 "glob": "**/*",
                 "input": "libs/agx-assets/src/lib/styles/css",
@@ -243,7 +243,7 @@
                 "input": "node_modules/@angular/material/prebuilt-themes/indigo-pink.css"
               },
               {
-                "input": "apps/playitfoward/src/styles.scss"
+                "input": "apps/playitforward/src/styles.scss"
               }
             ],
             "scripts": [],
@@ -258,8 +258,8 @@
             "production": {
               "fileReplacements": [
                 {
-                  "replace": "apps/playitfoward/src/environments/environment.ts",
-                  "with": "apps/playitfoward/src/environments/environment.prod.ts"
+                  "replace": "apps/playitforward/src/environments/environment.ts",
+                  "with": "apps/playitforward/src/environments/environment.prod.ts"
                 }
               ],
               "optimization": true,
@@ -285,8 +285,8 @@
             "ci": {
               "fileReplacements": [
                 {
-                  "replace": "apps/playitfoward/src/environments/environment.ts",
-                  "with": "apps/playitfoward/src/environments/environment.ci.ts"
+                  "replace": "apps/playitforward/src/environments/environment.ts",
+                  "with": "apps/playitforward/src/environments/environment.ci.ts"
                 }
               ],
               "optimization": true,
@@ -315,18 +315,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "playitfoward:build:development",
-            "proxyConfig": "apps/playitfoward/proxy/proxy.dev.json"
+            "browserTarget": "playitforward:build:development",
+            "proxyConfig": "apps/playitforward/proxy/proxy.dev.json"
           },
           "configurations": {
             "production": {
-              "browserTarget": "playitfoward:build:production",
-              "proxyConfig": "apps/playitfoward/proxy/proxy.prod.json",
+              "browserTarget": "playitforward:build:production",
+              "proxyConfig": "apps/playitforward/proxy/proxy.prod.json",
               "port": 4300
             },
             "ci": {
-              "browserTarget": "playitfoward:build:ci",
-              "proxyConfig": "apps/playitfoward/proxy/proxy.ci.json",
+              "browserTarget": "playitforward:build:ci",
+              "proxyConfig": "apps/playitforward/proxy/proxy.ci.json",
               "port": 4400
             }
           }
@@ -334,38 +334,41 @@
         "lint": {
           "builder": "@nrwl/linter:eslint",
           "options": {
-            "lintFilePatterns": ["apps/playitfoward/src/**/*.ts", "apps/playitfoward/src/**/*.html"]
+            "lintFilePatterns": [
+              "apps/playitforward/src/**/*.ts",
+              "apps/playitforward/src/**/*.html"
+            ]
           }
         },
         "test": {
           "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/apps/playitfoward"],
+          "outputs": ["coverage/apps/playitforward"],
           "options": {
-            "jestConfig": "apps/playitfoward/jest.config.js",
+            "jestConfig": "apps/playitforward/jest.config.js",
             "passWithNoTests": true
           }
         }
       }
     },
-    "playitfoward-e2e": {
-      "root": "apps/playitfoward-e2e",
-      "sourceRoot": "apps/playitfoward-e2e/src",
+    "playitforward-e2e": {
+      "root": "apps/playitforward-e2e",
+      "sourceRoot": "apps/playitforward-e2e/src",
       "projectType": "application",
       "architect": {
         "e2e": {
           "builder": "@nrwl/cypress:cypress",
           "options": {
-            "cypressConfig": "apps/playitfoward-e2e/cypress.json",
-            "tsConfig": "apps/playitfoward-e2e/tsconfig.e2e.json",
-            "devServerTarget": "playitfoward:serve"
+            "cypressConfig": "apps/playitforward-e2e/cypress.json",
+            "tsConfig": "apps/playitforward-e2e/tsconfig.e2e.json",
+            "devServerTarget": "playitforward:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "playitfoward:serve:production",
+              "devServerTarget": "playitforward:serve:production",
               "port": 4300
             },
             "ci": {
-              "devServerTarget": "playitfoward:serve:ci",
+              "devServerTarget": "playitforward:serve:ci",
               "port": 4400
             }
           }
@@ -373,7 +376,7 @@
         "lint": {
           "builder": "@nrwl/linter:eslint",
           "options": {
-            "lintFilePatterns": ["apps/playitfoward-e2e/**/*.{js,ts}"]
+            "lintFilePatterns": ["apps/playitforward-e2e/**/*.{js,ts}"]
           }
         }
       }
@@ -382,7 +385,7 @@
       "projectType": "library",
       "root": "libs/ngx-auth",
       "sourceRoot": "libs/ngx-auth/src",
-      "prefix": "playitfoward",
+      "prefix": "playitforward",
       "architect": {
         "lint": {
           "builder": "@nrwl/linter:eslint",
@@ -404,7 +407,7 @@
       "projectType": "library",
       "root": "libs/ngx-cachify",
       "sourceRoot": "libs/ngx-cachify/src",
-      "prefix": "playitfoward",
+      "prefix": "playitforward",
       "architect": {
         "build": {
           "builder": "@nrwl/angular:package",
@@ -442,7 +445,7 @@
       "projectType": "library",
       "root": "libs/ngx-config",
       "sourceRoot": "libs/ngx-config/src",
-      "prefix": "playitfoward-ngx-config",
+      "prefix": "playitforward-ngx-config",
       "architect": {
         "build": {
           "builder": "@nrwl/angular:package",
@@ -479,7 +482,7 @@
       "projectType": "library",
       "root": "libs/ngx-gql",
       "sourceRoot": "libs/ngx-gql/src",
-      "prefix": "playitfoward",
+      "prefix": "playitforward",
       "architect": {
         "lint": {
           "builder": "@nrwl/linter:eslint",
@@ -501,7 +504,7 @@
       "projectType": "library",
       "root": "libs/ngx-gtag",
       "sourceRoot": "libs/ngx-gtag/src",
-      "prefix": "playitfoward",
+      "prefix": "playitforward",
       "architect": {
         "build": {
           "builder": "@nrwl/angular:package",
@@ -538,7 +541,7 @@
       "projectType": "library",
       "root": "libs/ngx-i18n",
       "sourceRoot": "libs/ngx-i18n/src",
-      "prefix": "playitfoward",
+      "prefix": "playitforward",
       "architect": {
         "build": {
           "builder": "@nrwl/angular:package",
@@ -575,7 +578,7 @@
       "projectType": "library",
       "root": "libs/ngx-jwt",
       "sourceRoot": "libs/ngx-jwt/src",
-      "prefix": "playitfoward",
+      "prefix": "playitforward",
       "architect": {
         "build": {
           "builder": "@nrwl/angular:package",
@@ -612,7 +615,7 @@
       "projectType": "library",
       "root": "libs/ngx-layout",
       "sourceRoot": "libs/ngx-layout/src",
-      "prefix": "playitfoward",
+      "prefix": "playitforward",
       "architect": {
         "lint": {
           "builder": "@nrwl/linter:eslint",
@@ -634,7 +637,7 @@
       "projectType": "library",
       "root": "libs/ngx-logger",
       "sourceRoot": "libs/ngx-logger/src",
-      "prefix": "playitfoward",
+      "prefix": "playitforward",
       "architect": {
         "build": {
           "builder": "@nrwl/angular:package",
@@ -671,7 +674,7 @@
       "projectType": "library",
       "root": "libs/ngx-material",
       "sourceRoot": "libs/ngx-material/src",
-      "prefix": "playitfoward",
+      "prefix": "playitforward",
       "architect": {
         "lint": {
           "builder": "@nrwl/linter:eslint",
@@ -693,7 +696,7 @@
       "projectType": "library",
       "root": "libs/ngx-menu",
       "sourceRoot": "libs/ngx-menu/src",
-      "prefix": "playitfoward",
+      "prefix": "playitforward",
       "architect": {
         "build": {
           "builder": "@nrwl/angular:package",
@@ -730,7 +733,7 @@
       "projectType": "library",
       "root": "libs/ngx-msg",
       "sourceRoot": "libs/ngx-msg/src",
-      "prefix": "playitfoward",
+      "prefix": "playitforward",
       "architect": {
         "lint": {
           "builder": "@nrwl/linter:eslint",
@@ -752,7 +755,7 @@
       "projectType": "library",
       "root": "libs/ngx-shared",
       "sourceRoot": "libs/ngx-shared/src",
-      "prefix": "playitfoward",
+      "prefix": "playitforward",
       "architect": {
         "lint": {
           "builder": "@nrwl/linter:eslint",
@@ -774,7 +777,7 @@
       "projectType": "library",
       "root": "libs/ngx-store",
       "sourceRoot": "libs/ngx-store/src",
-      "prefix": "playitfoward",
+      "prefix": "playitforward",
       "architect": {
         "build": {
           "builder": "@nrwl/angular:package",
@@ -812,7 +815,7 @@
       "projectType": "library",
       "root": "libs/ngx-subify",
       "sourceRoot": "libs/ngx-subify/src",
-      "prefix": "playitfoward",
+      "prefix": "playitforward",
       "architect": {
         "build": {
           "builder": "@nrwl/angular:package",
@@ -849,7 +852,7 @@
       "projectType": "library",
       "root": "libs/ngx-system",
       "sourceRoot": "libs/ngx-system/src",
-      "prefix": "playitfoward",
+      "prefix": "playitforward",
       "architect": {
         "test": {
           "builder": "@nrwl/jest:jest",
@@ -871,7 +874,7 @@
       "projectType": "library",
       "root": "libs/ngx-uix",
       "sourceRoot": "libs/ngx-uix/src",
-      "prefix": "playitfoward",
+      "prefix": "playitforward",
       "architect": {
         "lint": {
           "builder": "@nrwl/linter:eslint",
@@ -893,7 +896,7 @@
       "projectType": "library",
       "root": "libs/ngx-user",
       "sourceRoot": "libs/ngx-user/src",
-      "prefix": "playitfoward",
+      "prefix": "playitforward",
       "architect": {
         "test": {
           "builder": "@nrwl/jest:jest",

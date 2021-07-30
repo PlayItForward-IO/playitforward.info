@@ -6,8 +6,8 @@
  * that can be found at http://neekware.com/license/PRI.html
  */
 
-import { HealthCheck } from '@playitfoward/agx-dto';
 import { Injectable } from '@nestjs/common';
+import { HealthCheck } from '@playitforward/agx-dto';
 
 @Injectable()
 export class AppService {

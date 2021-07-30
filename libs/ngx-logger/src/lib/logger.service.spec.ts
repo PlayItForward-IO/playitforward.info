@@ -8,7 +8,7 @@
 
 import { HttpClientModule } from '@angular/common/http';
 import { TestBed, getTestBed } from '@angular/core/testing';
-import { ApplicationConfig, ConfigModule } from '@playitfoward/ngx-config';
+import { ApplicationConfig, ConfigModule } from '@playitforward/ngx-config';
 import { DeepReadonly } from 'ts-essentials';
 
 import { LogLevel } from './logger.model';
@@ -17,7 +17,7 @@ import { LoggerService } from './logger.service';
 
 const applicationConfig: DeepReadonly<ApplicationConfig> = {
   version: '1.0.0',
-  appName: '@playitfoward/ngx-logger',
+  appName: '@playitforward/ngx-logger',
   production: false,
 };
 

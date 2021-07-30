@@ -8,8 +8,8 @@
     </mat-expansion-panel-header>
 
     <div *ngFor="let child of node.children">
-      <playitfoward-menu-node *ngIf="child.isNode" [node]="child"></playitfoward-menu-node>
-      <playitfoward-menu-link *ngIf="child.isLink" [link]="child"></playitfoward-menu-link>
+      <playitforward-menu-node *ngIf="child.isNode" [node]="child"></playitforward-menu-node>
+      <playitforward-menu-link *ngIf="child.isLink" [link]="child"></playitforward-menu-link>
     </div>
   </mat-expansion-panel>
 </div>

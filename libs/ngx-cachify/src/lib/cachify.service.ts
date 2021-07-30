@@ -10,13 +10,13 @@
 
 import { HttpResponse } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { StoreState } from '@playitfoward/agx-store';
+import { StoreState } from '@playitforward/agx-store';
 import {
   ApplicationConfig,
   ConfigService,
   DefaultApplicationConfig,
-} from '@playitfoward/ngx-config';
-import { LoggerService } from '@playitfoward/ngx-logger';
+} from '@playitforward/ngx-config';
+import { LoggerService } from '@playitforward/ngx-logger';
 import { merge as ldNestedMerge } from 'lodash-es';
 import { DeepReadonly } from 'ts-essentials';
 

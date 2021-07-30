@@ -8,7 +8,7 @@
 
 import { HttpClientModule } from '@angular/common/http';
 import { TestBed } from '@angular/core/testing';
-import { ConfigModule } from '@playitfoward/ngx-config';
+import { ConfigModule } from '@playitforward/ngx-config';
 
 import { StoreModule } from './store.module';
 import { StoreService } from './store.service';

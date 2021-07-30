@@ -8,7 +8,7 @@
 
 import { Injectable } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
-import { i18nExtractor as _ } from '@playitfoward/ngx-i18n';
+import { i18nExtractor as _ } from '@playitforward/ngx-i18n';
 import { Observable } from 'rxjs';
 
 import { ConfirmationDialogComponent } from '../../component/confirm/confirm.component';

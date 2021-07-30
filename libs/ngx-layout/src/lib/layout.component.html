@@ -9,7 +9,7 @@
   [class.fs-theme-dark]="layout.state.isDarkTheme"
   [@fadeOutInSlow]="layout.state.isDarkTheme ? 'out' : 'in'"
 >
-  <playitfoward-navbar [authState]="auth.state" [layoutState]="layout.state"></playitfoward-navbar>
+  <playitforward-navbar [authState]="auth.state" [layoutState]="layout.state"></playitforward-navbar>
 
   <mat-sidenav-container [class.fs-noscroll]="!allowScroll">
     <mat-sidenav
@@ -22,7 +22,7 @@
       [attr.role]="layout.state.menuRole"
       class="fs-menu-panel"
     >
-      <playitfoward-menu></playitfoward-menu>
+      <playitforward-menu></playitforward-menu>
     </mat-sidenav>
 
     <mat-sidenav
@@ -35,13 +35,13 @@
       [attr.role]="layout.state.notifyRole"
       class="fs-notification-panel"
     >
-      <playitfoward-notification></playitfoward-notification>
+      <playitforward-notification></playitforward-notification>
     </mat-sidenav>
 
     <mat-sidenav-content [@slideIn]="routeState(outlet)">
       <div>
         <router-outlet #outlet="outlet"></router-outlet>
-        <playitfoward-footer [appName]="layout.state.appName"></playitfoward-footer>
+        <playitforward-footer [appName]="layout.state.appName"></playitforward-footer>
       </div>
     </mat-sidenav-content>
   </mat-sidenav-container>

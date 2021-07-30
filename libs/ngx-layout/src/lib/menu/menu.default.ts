@@ -6,8 +6,8 @@
  * that can be found at http://neekware.com/license/PRI.html
  */
 
-import { i18nExtractor as _ } from '@playitfoward/ngx-i18n';
-import { MenuItem } from '@playitfoward/ngx-menu';
+import { i18nExtractor as _ } from '@playitforward/ngx-i18n';
+import { MenuItem } from '@playitforward/ngx-menu';
 
 export const layoutMenuTree: MenuItem[] = [
   {

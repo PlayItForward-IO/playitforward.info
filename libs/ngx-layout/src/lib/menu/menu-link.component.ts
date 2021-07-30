@@ -8,13 +8,13 @@
 
 import { Component, Input } from '@angular/core';
 import { Router } from '@angular/router';
-import { AuthService } from '@playitfoward/ngx-auth';
-import { MenuNode } from '@playitfoward/ngx-menu';
+import { AuthService } from '@playitforward/ngx-auth';
+import { MenuNode } from '@playitforward/ngx-menu';
 
 import { LayoutService } from '../layout.service';
 
 @Component({
-  selector: 'playitfoward-menu-link',
+  selector: 'playitforward-menu-link',
   templateUrl: './menu-link.component.html',
   styleUrls: ['./menu-link.component.scss'],
 })

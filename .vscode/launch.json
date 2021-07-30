@@ -5,9 +5,9 @@
       "type": "chrome",
       "request": "launch",
       "name": "Launch Angular",
-      "preLaunchTask": "npm: start:playitfoward",
+      "preLaunchTask": "npm: start:playitforward",
       "url": "http://localhost:4200/",
-      "webRoot": "${workspaceFolder}/apps/playitfoward"
+      "webRoot": "${workspaceFolder}/apps/playitforward"
     },
     {
       "type": "node",
@@ -46,8 +46,8 @@
       "id": "libName",
       "description": "Run jest tests from which nx.json project?",
       "options": [
-        "playitfoward-e2e",
-        "playitfoward",
+        "playitforward-e2e",
+        "playitforward",
         "api",
         "ngx-config",
         "ngx-logger",
