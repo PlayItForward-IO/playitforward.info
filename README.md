@@ -34,8 +34,8 @@ PayItForward (PFWD)© is a decentralized digital token created by developers for
 ### Social Networks
 
 - PlayItForward on [Twitter](https://twitter.com/PlayItFWD_Token)
-- PlayItForward on [Facebook](#) (launch soon)
-- PlayItForward on [Discord](#) (launch soon)
+- PlayItForward on [Facebook](#) (launch soon ...)
+- PlayItForward on [Discord](#) (launch soon ...)
 
 ### Token Info - Ethereum Network
 
@@ -45,8 +45,8 @@ PayItForward (PFWD)© is a decentralized digital token created by developers for
 
 ### Token Info - Token Trackers Network
 
-- PlayItForward on [CoinGecko](#) (launch soon)
-- PlayItForward on [CoinMarketCap](#) (launch soon)
+- PlayItForward on [CoinGecko](#) (launch soon ...)
+- PlayItForward on [CoinMarketCap](#) (launch soon ...)
 
 ### Where to get PlayItForward Token
 
