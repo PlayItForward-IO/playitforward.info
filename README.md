@@ -50,7 +50,7 @@ PayItForward (PFWD)© is a decentralized digital token created by developers for
 
 ### Where to get PlayItForward Token
 
-- Go to [Uniswap](https://app.uniswap.org/#/swap)
+- Get PlayItForward `PFWD` Token on [Uniswap](https://app.uniswap.org/#/swap) <img style="margin-bottom: -11px" width="4%" src="libs/agx-assets/src/lib/images/misc/uniswap.png">
   - Click on `Select A Token`
   - Click on `Manage Token List`
   - Click on `Token`
