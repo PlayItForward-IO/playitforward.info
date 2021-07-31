@@ -9,7 +9,7 @@
 import { ChangeDetectionStrategy, Component, Input, OnDestroy, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { AuthService, AuthState } from '@playitforward/ngx-auth';
-import { i18nExtractor as _ } from '@playitforward/ngx-i18n';
+import { I18nService, i18nExtractor as _ } from '@playitforward/ngx-i18n';
 import { rotationAnimations, shakeAnimations } from '@playitforward/ngx-shared';
 import { UixService } from '@playitforward/ngx-uix';
 import { Subject } from 'rxjs';
@@ -78,10 +78,11 @@ export class NavbarComponent implements OnInit, OnDestroy {
   private destroy$ = new Subject<boolean>();
 
   constructor(
-    public router: Router,
-    public auth: AuthService,
-    public uix: UixService,
-    public layout: LayoutService
+    readonly router: Router,
+    readonly i18n: I18nService,
+    readonly auth: AuthService,
+    readonly uix: UixService,
+    readonly layout: LayoutService
   ) {}
 
   ngOnInit() {

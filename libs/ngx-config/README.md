@@ -64,7 +64,7 @@ import { ConfigService } from '@playitforward/ngx-config';
 export class AppComponent {
   title: string;
 
-  constructor(public config: ConfigService) {
+  constructor(readonly config: ConfigService) {
     this.title = this.config.options.appName;
   }
 }
@@ -133,7 +133,7 @@ export class AppComponent {
   title: string;
   options = {};
 
-  constructor(public config: ConfigService) {
+  constructor(readonly config: ConfigService) {
     this.options = merge({ name: 'AppComponent' }, this.config.options};
     const remoteConfigData = this.options.remoteData;
   }

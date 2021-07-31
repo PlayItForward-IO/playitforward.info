@@ -92,6 +92,7 @@ export class I18nService {
   private initLanguage() {
     this.availableLanguages = this.options.i18n.availableLanguages;
     this.enabledLanguages = this.options.i18n.enabledLanguages;
+    console.log(this.enabledLanguages);
     this.defaultLanguage = this.getInitialLanguage() || this.options.i18n.defaultLanguage;
 
     this.translate.onLangChange.pipe(takeUntil(this.destroy$)).subscribe((event) => {
