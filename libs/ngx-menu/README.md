@@ -135,7 +135,7 @@ export class AppComponent {
     permissions: ['subscriptions_level_1'];
   };
 
-  constructor(public menu: MenuService) {
+  constructor(readonly menu: MenuService) {
     this.log.info('AppComponent loaded ...');
     this.buildMenu();
   }

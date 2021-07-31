@@ -128,7 +128,7 @@ import { I18nService } from '@playitforward/ngx-i18n';
 export class AppComponent {
   direction = 'ltr';
   title = 'PlayItForward';
-  constructor(public i18n: I18nService) {
+  constructor(readonly i18n: I18nService) {
     // translate in ts files
     i18n.xlate.get('COMMON.WELCOME').subscribe((res: string) => {
       console.log.info(res);

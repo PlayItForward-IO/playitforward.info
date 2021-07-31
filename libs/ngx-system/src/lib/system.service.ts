@@ -36,7 +36,7 @@ export class SystemService implements OnDestroy {
   routeData: Data;
 
   constructor(
-    public router: Router,
+    readonly router: Router,
     readonly activatedRoute: ActivatedRoute,
     readonly title: Title,
     readonly meta: Meta,

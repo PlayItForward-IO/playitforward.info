@@ -35,7 +35,7 @@ export class OptionsComponent implements OnInit, OnDestroy {
   isDarkTheme = false;
   private destroy$ = new Subject<boolean>();
 
-  constructor(public i18n: I18nService, public layout: LayoutService) {
+  constructor(readonly i18n: I18nService, readonly layout: LayoutService) {
     this.currentLanguage = this.i18n.defaultLanguage;
     this.isDarkTheme = this.layout.isDarkTheme;
   }

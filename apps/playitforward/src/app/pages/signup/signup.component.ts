@@ -35,7 +35,7 @@ export class SignupComponent implements OnInit, OnDestroy {
 
   constructor(
     readonly formBuilder: FormBuilder,
-    public config: ConfigService,
+    readonly config: ConfigService,
     readonly i18n: I18nService,
     readonly validation: ValidationService,
     readonly auth: AuthService,

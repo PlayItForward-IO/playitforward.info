@@ -45,7 +45,7 @@ export class HomeComponent implements OnInit, OnDestroy {
     },
   ];
 
-  constructor(public auth: AuthService, public layout: LayoutService) {}
+  constructor(readonly auth: AuthService, readonly layout: LayoutService) {}
 
   ngOnInit() {
     this.layout.handset$.pipe(takeUntil(this.destroy$)).subscribe((state) => {

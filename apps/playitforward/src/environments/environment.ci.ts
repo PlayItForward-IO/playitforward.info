@@ -70,12 +70,12 @@ const i18n: I18nConfig = {
   enabledLanguages: [
     // order is important
     'en',
-    'fr',
-    'zh-hans',
-    'de',
-    'es',
-    'he',
-    'fa',
+    // 'fr',
+    // 'zh-hans',
+    // 'de',
+    // 'es',
+    // 'he',
+    // 'fa',
   ],
   cacheBustingHash: 'v0.0.1',
 };

@@ -10,7 +10,7 @@
   <div fxFlex></div>
 
   <button
-    *ngIf="authState.isLoggedIn"
+    *ngIf="authState.isLoggedIn && false"
     (click)="layout.toggleNotification()"
     mat-icon-button
     aria-label="Toggle notifications"
@@ -42,7 +42,7 @@
         <mat-icon svgIcon="{{ navbarLinks.password.icon }}"></mat-icon>
         {{ navbarLinks.password.title | translate }}
       </a>
-      <a [routerLink]="navbarLinks.language.path" mat-menu-item>
+      <a [routerLink]="navbarLinks.language.path" mat-menu-item *ngIf="i18n.enabledLanguages.length > 1">
         <mat-icon svgIcon="{{ navbarLinks.language.icon }}"></mat-icon>
         {{ navbarLinks.language.title | translate }}
       </a>

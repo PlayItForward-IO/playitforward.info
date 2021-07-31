@@ -36,10 +36,10 @@ export class LayoutComponent implements OnDestroy, AfterViewInit {
 
   constructor(
     @Inject(DOCUMENT) readonly document: Document,
-    public logger: LoggerService,
-    public i18n: I18nService,
-    public auth: AuthService,
-    public layout: LayoutService
+    readonly logger: LoggerService,
+    readonly i18n: I18nService,
+    readonly auth: AuthService,
+    readonly layout: LayoutService
   ) {}
 
   ngAfterViewInit(): void {

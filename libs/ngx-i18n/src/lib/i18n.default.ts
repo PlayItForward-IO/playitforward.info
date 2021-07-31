@@ -27,7 +27,7 @@ export const DefaultTranslations = {};
 export const DefaultLanguage = 'en';
 export const DefaultLanguageName = 'English';
 export const RtlLanguageList: string[] = Object.keys(RtlLanguageListMap);
-export const EnabledLanguages = ['en', 'fr', 'es', 'he', 'fa'];
+export const EnabledLanguages = ['en'];
 
 export const AvailableLanguages: LanguageInfo = {
   en: {
@@ -40,6 +40,11 @@ export const AvailableLanguages: LanguageInfo = {
     locale: '@angular/common/locales/fr',
     localeExtra: '@angular/common/locales/extra/fr',
   },
+  de: {
+    name: 'Deutsch',
+    locale: '@angular/common/locales/de',
+    localeExtra: '@angular/common/locales/extra/de',
+  },
   es: {
     name: 'Español',
     locale: '@angular/common/locales/es',
@@ -51,9 +56,14 @@ export const AvailableLanguages: LanguageInfo = {
     localeExtra: '@angular/common/locales/extra/he',
   },
   fa: {
-    name: 'فارسی',
+    name: 'پارسی',
     locale: '@angular/common/locales/fa',
     localeExtra: '@angular/common/locales/extra/fa',
+  },
+  'zh-hans': {
+    name: '中文 - 简体',
+    locale: '@angular/common/locales/zh-Hans',
+    localeExtra: '@angular/common/locales/extra/zh-Hans',
   },
 };
 

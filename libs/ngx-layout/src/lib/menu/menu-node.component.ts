@@ -17,5 +17,5 @@ import { MenuNode } from '@playitforward/ngx-menu';
 })
 export class MenuNodeComponent {
   @Input() node: MenuNode;
-  constructor(public router: Router) {}
+  constructor(readonly router: Router) {}
 }

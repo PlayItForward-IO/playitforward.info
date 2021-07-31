@@ -52,7 +52,10 @@ const mailerConfig: MailerConfig = {
 const i18nConfig: I18nConfig = {
   defaultLocale: 'en',
   availableLocales: ['de', 'en', 'es', 'fa', 'fr', 'he', 'zh-hans'],
-  enabledLocales: ['de', 'en', 'es', 'fa', 'fr', 'he', 'zh-hans'],
+  enabledLocales: [
+    'en',
+    /*'de', 'es', 'fa', 'fr', 'he', 'zh-hans' */
+  ],
   translationDirectory: 'assets/i18n/',
 };
 
