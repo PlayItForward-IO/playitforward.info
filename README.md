@@ -13,7 +13,7 @@ PayItForward (PFWD)© is a decentralized digital token created by developers for
 
 ## PlayItForward Token Properties
 
-- PlayItForward is pegged to USDC at a minimum value of 1 cent ($0.01) USDC per token, with a fixed supply of 1,000,000 tokens.
+- PlayItForward is pegged to USDC at a minimum value of $0.01 USDC per token, with a fixed supply of 1,000,000 tokens.
 - PlayItForward’s initial total market cap is $10,000 USDC. This is to guarantee the minimum value, and to deter token manipulation.
 - PlayItForward's source code guarantees no more tokens can ever be created, making it a deflationary token by nature. PlayItForward is pegged to USDC with the starting value of $0.01 USDC and its value can only increase over time due to possible scarcity.
 - PlayItForward is a decentralized token, as it is secured by millions of computers worldwide on the Ethereum network. It can be used to store value due to its limited supply, making its upside unlimited. It can also be transferred in tiny fractional amounts, making it a great vehicle for micro-transactions.
