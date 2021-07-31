@@ -22,4 +22,20 @@ PayItForward (PFWD)© is a decentralized digital token created by developers for
 
 By owning PlayItForward Tokens, you acknowledge and agree that PlayItForward Tokens are not securities nor investment contracts. You also agree to hold the team harmless and not liable for any losses or taxes you may incur. Please note that PlayItForward is a community driven DeFi Ecosystem and not a registered digital currency, so please always make sure that you are in compliance with your local laws and regulations before you make any transaction. Digital tokens are not legal tender and not investments. Crypto market is highly risky and speculative in nature.
 
-http://playitforward.io // PlayItForward (PFWD) // info@playitforward.io
+## MORE INFO
+
+- info@playitforward.io
+- [http://playitforward.io](http://playitforward.io)
+- [Whitepaper](libs/agx-assets/src/lib/docs/PlayItForward.pdf)
+- [Token Source Code](https://etherscan.io/address/0x20b19196dfa0454f142a38ea2e3b7077796de050#code) (Etherscan)
+- [Token Address](https://etherscan.io/token/0x20b19196dfa0454f142a38ea2e3b7077796de050) (Etherscan)
+- [Token Contract](https://etherscan.io/address/0x20b19196dfa0454f142a38ea2e3b7077796de050) (Etherscan)
+- [Buy Token](https://app.uniswap.org/#/swap) (UnisSwap)
+  - Go to [uniswap.org](https://app.uniswap.org/#/swap)
+  - Click on `Select A Token`
+  - Click on `Manage Token List`
+  - Click on `Token`
+  - Copy & Paste [Token Contract](https://etherscan.io/address/0x20b19196dfa0454f142a38ea2e3b7077796de050)
+  - Select PlayItForward symbol `PFWD`
+  - Select the other token you have
+  - Click the amounts and swap
