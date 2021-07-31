@@ -55,7 +55,7 @@ export class FooterComponent {
       ],
     },
     {
-      type: _('COMMON.COMPANY'),
+      type: _('COMMON.PROJECT'),
       links: [
         {
           name: _('COMMON.TERMS_CONDITIONS'),

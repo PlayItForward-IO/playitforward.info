@@ -34,14 +34,14 @@ export class HomeComponent implements OnInit, OnDestroy {
       image: '/assets/images/misc/mission.png',
     },
     {
-      title: _('PITCH.HISTORICAL.TITLE'),
-      description: _('PITCH.HISTORICAL.DESCRIPTION'),
-      image: '/assets/images/misc/trends.png',
+      title: _('PITCH.PROPERTY.TITLE'),
+      description: _('PITCH.PROPERTY.DESCRIPTION'),
+      image: '/assets/images/misc/property.png',
     },
     {
-      title: _('PITCH.PLATFORMS.TITLE'),
-      description: _('PITCH.PLATFORMS.DESCRIPTION'),
-      image: '/assets/images/misc/platforms.png',
+      title: _('PITCH.VALUE.TITLE'),
+      description: _('PITCH.VALUE.DESCRIPTION'),
+      image: '/assets/images/misc/value.png',
     },
   ];
 
