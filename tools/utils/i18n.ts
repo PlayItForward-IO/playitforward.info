@@ -9,6 +9,7 @@
 import { writeFileSync } from 'fs';
 import * as path from 'path';
 
+import * as program from 'commander';
 import { sync } from 'glob';
 
 import { projDir, sleep } from './util';
@@ -70,27 +71,46 @@ async function translate(text: string, options: { from: string; to: string }): P
  * @param fromFile - full path to 'from' language json file
  * @param toFile - full path to 'to' language json file
  */
-async function processLanguageFileTranslation(fromFile, toFile) {
+async function processLanguageFileTranslation(
+  fromFile: I18nLanguageIsoPath,
+  toFile: I18nLanguageIsoPath
+) {
   const fromData = require(fromFile.path);
   const toData = require(toFile.path);
-  const toNewData = {};
-  for (const key in fromData) {
-    const fromValue = fromData[key];
-    const toValue = toData[key];
 
-    if (fromValue && !toValue) {
-      sleep(100);
-      const result = await translate(fromData[key], {
-        from: I18nDefaultLanguage,
-        to: toFile.iso,
-      });
-      console.log(result);
-      if (result) {
-        toNewData[key] = result;
+  let toPruned = {};
+  if (program.prune) {
+    for (const key in toData) {
+      if (toData.hasOwnProperty(key) && fromData.hasOwnProperty(key)) {
+        toPruned[key] = toData[key];
       }
-    } else {
-      toNewData[key] = toValue;
     }
+  } else {
+    toPruned = toData;
+  }
+
+  let toNewData = {};
+  if (program.translate) {
+    for (const key in fromData) {
+      const fromValue = fromData[key];
+      const toValue = toPruned[key];
+
+      if (fromValue && !toValue) {
+        sleep(100);
+        const result = await translate(fromData[key], {
+          from: I18nDefaultLanguage,
+          to: toFile.iso,
+        });
+        console.log(result);
+        if (result) {
+          toNewData[key] = result;
+        }
+      } else {
+        toNewData[key] = toValue;
+      }
+    }
+  } else {
+    toNewData = toPruned;
   }
 
   const content = JSON.stringify(toNewData, null, 2);
@@ -120,20 +140,31 @@ function getToLanguageFiles(): I18nLanguageIsoPath[] {
  *  Translate files
  */
 async function main(argv) {
-  console.log('Processing translations (via google) ...');
+  console.log('Processing translations (via azure) ...');
 
-  const fromFileInfo = getFromLanguageFile();
-  const toFilesInfo = getToLanguageFiles();
-  console.log(
-    `Translating: from (${I18nDefaultLanguage}) => to: (${I18nActiveLanguages.filter(
-      (iso) => iso !== I18nDefaultLanguage
-    )})`
-  );
+  if (program.translate || program.prune) {
+    const fromFileInfo = getFromLanguageFile();
+    const toFilesInfo = getToLanguageFiles();
+    console.log(
+      `Translating: from (${I18nDefaultLanguage}) => to: (${I18nActiveLanguages.filter(
+        (iso) => iso !== I18nDefaultLanguage
+      )})`
+    );
 
-  for (const toInfo of toFilesInfo) {
-    await processLanguageFileTranslation(fromFileInfo, toInfo);
+    for (const toInfo of toFilesInfo) {
+      await processLanguageFileTranslation(fromFileInfo, toInfo);
+    }
+  } else {
+    console.log(program.help());
   }
 }
+
+program
+  .version('0.0.1', '-v, --version')
+  .option('--verbose', 'verbose')
+  .option('-p, --prune', 'prunes alt-langs to match the default lang')
+  .option('-t, --translate', 'translates from default lang to alt-langs')
+  .parse(process.argv);
 
 main(process.argv).catch((err) => {
   console.error(`Error translating languages`, err);
