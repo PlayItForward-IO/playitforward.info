@@ -22,16 +22,16 @@ const excludeDirs = ['node_modules', 'tmp', 'coverage', 'dist', 'gql.schema.ts',
  */
 async function main() {
   const loc = await execute(`loc . --exclude ${excludeDirs.join(' ')}`, !DEBUG);
-  let readMe = fs.readFileSync('README.md', 'utf-8');
+  let readMe = fs.readFileSync('README_TECH.md', 'utf-8');
 
   readMe = replaceSection(readMe, 'Lines of Code', '```txt<br>' + loc + '```', false);
 
-  fs.writeFileSync('README.md', readMe, 'utf-8');
+  fs.writeFileSync('README_TECH.md', readMe, 'utf-8');
 }
 
 program.version('0.0.1', '-v, --version').parse(process.argv);
 
 main().catch((err) => {
-  console.error(`Error updating Readme.md`, err);
+  console.error(`Error updating README_TECH.md`, err);
   process.exit(111);
 });
