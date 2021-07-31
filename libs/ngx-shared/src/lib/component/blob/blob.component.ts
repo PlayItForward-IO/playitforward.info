@@ -9,7 +9,7 @@
 import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'fullerstack-blob',
+  selector: 'playitforward-blob',
   templateUrl: './blob.component.html',
   styleUrls: ['./blob.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,

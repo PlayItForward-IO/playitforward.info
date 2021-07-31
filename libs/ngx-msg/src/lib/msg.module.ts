@@ -8,8 +8,8 @@
 
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { I18nModule } from '@fullerstack/ngx-i18n';
-import { MaterialModule } from '@fullerstack/ngx-material';
+import { I18nModule } from '@playitforward/ngx-i18n';
+import { MaterialModule } from '@playitforward/ngx-material';
 
 import { MsgService } from './msg.service';
 import { SnackbarComponent } from './snackbar/snackbar.component';

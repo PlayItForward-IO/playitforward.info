@@ -8,13 +8,13 @@
 
 import { Direction } from '@angular/cdk/bidi/directionality';
 import { EventEmitter, Injectable, Output } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 import {
   ApplicationConfig,
   ConfigService,
   DefaultApplicationConfig,
-} from '@fullerstack/ngx-config';
-import { LoggerService } from '@fullerstack/ngx-logger';
-import { TranslateService } from '@ngx-translate/core';
+} from '@playitforward/ngx-config';
+import { LoggerService } from '@playitforward/ngx-logger';
 import { merge as ldNestedMerge } from 'lodash-es';
 import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';

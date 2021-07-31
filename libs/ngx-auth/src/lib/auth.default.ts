@@ -6,15 +6,15 @@
  * that can be found at http://neekware.com/license/PRI.html
  */
 
-import { getOperationName } from '@fullerstack/ngx-gql';
+import { getOperationName } from '@playitforward/ngx-gql';
 import {
   AuthTokenRefreshMutation,
   AuthUserLogoutMutation,
   AuthUserSignupMutation,
-} from '@fullerstack/ngx-gql/operations';
-import { i18nExtractor as _ } from '@fullerstack/ngx-i18n';
-import { LogLevel } from '@fullerstack/ngx-logger';
-import { MessageMap } from '@fullerstack/ngx-msg';
+} from '@playitforward/ngx-gql/operations';
+import { i18nExtractor as _ } from '@playitforward/ngx-i18n';
+import { LogLevel } from '@playitforward/ngx-logger';
+import { MessageMap } from '@playitforward/ngx-msg';
 import { DeepReadonly } from 'ts-essentials';
 
 import { AuthConfig, AuthState, AuthUrls } from './auth.model';

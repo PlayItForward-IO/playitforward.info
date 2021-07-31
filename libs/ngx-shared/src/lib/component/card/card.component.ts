@@ -8,12 +8,12 @@
 
 import { Component, Input, OnInit } from '@angular/core';
 import { TooltipPosition } from '@angular/material/tooltip';
-import { I18nService } from '@fullerstack/ngx-i18n';
+import { I18nService } from '@playitforward/ngx-i18n';
 
 import { shakeAnimations } from '../../animation/animation.shake';
 
 @Component({
-  selector: 'fullerstack-card',
+  selector: 'playitforward-card',
   templateUrl: './card.component.html',
   styleUrls: ['./card.component.scss'],
   animations: [shakeAnimations.wiggleIt],

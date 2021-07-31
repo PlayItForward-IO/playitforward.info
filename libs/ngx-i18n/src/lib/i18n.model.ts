@@ -15,7 +15,7 @@ export interface LanguageInfo {
     locale?: string;
     // angular extra locale path for language
     localeExtra?: string;
-    // one or more optional fullerstack-specific field(s)
+    // one or more optional playitforward-specific field(s)
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     [id: string]: any;
   };

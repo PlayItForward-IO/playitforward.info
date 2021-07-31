@@ -6,7 +6,6 @@
  * that can be found at http://neekware.com/license/PRI.html
  */
 
-import { ApiError, JwtDto } from '@fullerstack/agx-dto';
 import {
   BadRequestException,
   ExecutionContext,
@@ -15,6 +14,7 @@ import {
   UnauthorizedException,
 } from '@nestjs/common';
 import { AuthGuard } from '@nestjs/passport';
+import { ApiError, JwtDto } from '@playitforward/agx-dto';
 
 import { AUTH_SESSION_COOKIE_NAME } from './auth.constant';
 import { SecurityService } from './auth.security.service';

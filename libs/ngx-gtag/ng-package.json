@@ -5,8 +5,8 @@
     "entryFile": "src/index.ts",
     "umdModuleIds": {
       "lodash-es": "lodash-es",
-      "@fullerstack/ngx-config": "@fullerstack/ngx-config",
-      "@fullerstack/ngx-logger": "@fullerstack/ngx-logger"
+      "@playitforward/ngx-config": "@playitforward/ngx-config",
+      "@playitforward/ngx-logger": "@playitforward/ngx-logger"
     }
   }
 }

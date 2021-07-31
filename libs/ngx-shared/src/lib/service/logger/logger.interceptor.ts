@@ -15,9 +15,9 @@ import {
   HttpResponse,
 } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { tryGet } from '@fullerstack/agx-util';
-import { GqlOperationNameKey } from '@fullerstack/ngx-gql';
-import { LoggerService } from '@fullerstack/ngx-logger';
+import { tryGet } from '@playitforward/agx-util';
+import { GqlOperationNameKey } from '@playitforward/ngx-gql';
+import { LoggerService } from '@playitforward/ngx-logger';
 import { Observable, tap } from 'rxjs';
 
 @Injectable()

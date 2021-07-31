@@ -13,7 +13,7 @@
           "error",
           {
             "type": "attribute",
-            "prefix": "fullerstack-ngx-config",
+            "prefix": "playitforward-ngx-config",
             "style": "camelCase"
           }
         ],
@@ -21,7 +21,7 @@
           "error",
           {
             "type": "element",
-            "prefix": "fullerstack-ngx-config",
+            "prefix": "playitforward-ngx-config",
             "style": "kebab-case"
           }
         ]

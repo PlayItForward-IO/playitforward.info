@@ -6,8 +6,8 @@
  * that can be found at http://neekware.com/license/PRI.html
  */
 
-import { I18nModule } from '@fullerstack/nsx-i18n';
 import { Module } from '@nestjs/common';
+import { I18nModule } from '@playitforward/nsx-i18n';
 
 import { MailerService } from './mailer.service';
 

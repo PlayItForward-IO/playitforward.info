@@ -9,19 +9,19 @@
 import { HttpClientTestingModule } from '@angular/common/http/testing';
 import { TestBed, waitForAsync } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
-import { AuthModule } from '@fullerstack';
-import { ApplicationConfig, ConfigModule } from '@fullerstack/ngx-config';
-import { GqlModule } from '@fullerstack/ngx-gql';
-import { makeMockI18nModule } from '@fullerstack/ngx-i18n/mock';
-import { JwtModule } from '@fullerstack/ngx-jwt';
-import { LogLevel, LoggerModule } from '@fullerstack/ngx-logger';
-import { MsgModule } from '@fullerstack/ngx-msg';
-import { StoreModule } from '@fullerstack/ngx-store';
+import { AuthModule } from '@playitforward';
+import { ApplicationConfig, ConfigModule } from '@playitforward/ngx-config';
+import { GqlModule } from '@playitforward/ngx-gql';
+import { makeMockI18nModule } from '@playitforward/ngx-i18n/mock';
+import { JwtModule } from '@playitforward/ngx-jwt';
+import { LogLevel, LoggerModule } from '@playitforward/ngx-logger';
+import { MsgModule } from '@playitforward/ngx-msg';
+import { StoreModule } from '@playitforward/ngx-store';
 
 import { SystemService } from './system.service';
 
 export const environment: ApplicationConfig = {
-  appName: 'Fullerstack',
+  appName: 'playitforward',
   production: false,
   logger: { level: LogLevel.trace },
   gql: { endpoint: '/graphql' },

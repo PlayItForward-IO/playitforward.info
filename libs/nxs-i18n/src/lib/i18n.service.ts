@@ -6,9 +6,9 @@
  * that can be found at http://neekware.com/license/PRI.html
  */
 
-import { RenderContext, RenderOptions, renderTemplate } from '@fullerstack/nsx-common';
 import { Injectable } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
+import { RenderContext, RenderOptions, renderTemplate } from '@playitforward/nsx-common';
 import { merge as ldNestMerge } from 'lodash';
 import { DeepReadonly } from 'ts-essentials';
 

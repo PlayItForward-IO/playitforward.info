@@ -1,8 +1,8 @@
 {
   "version": "0.0.1",
-  "name": "@fullerstack/ngx-store",
+  "name": "@playitforward/ngx-store",
   "description": "A Simple Redux Flat Store Library for Angular",
-  "homepage": "https://github.com/neekware/fullerstack/blob/main/libs/ngx-store/README.md",
+  "homepage": "https://github.com/neekware/playitforward/blob/main/libs/ngx-store/README.md",
   "keywords": [
     "ng",
     "angular",

@@ -7,7 +7,7 @@
  */
 
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
-import { UixModule } from '@fullerstack/ngx-uix';
+import { UixModule } from '@playitforward/ngx-uix';
 
 import { LayoutService } from '../layout.service';
 import { NavbarComponent } from './navbar.component';

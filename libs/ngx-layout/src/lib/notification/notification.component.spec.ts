@@ -7,14 +7,14 @@
  */
 
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
-import { ApplicationConfig, ConfigModule } from '@fullerstack/ngx-config';
-import { LoggerModule } from '@fullerstack/ngx-logger';
+import { ApplicationConfig, ConfigModule } from '@playitforward/ngx-config';
+import { LoggerModule } from '@playitforward/ngx-logger';
 
 import { LayoutService } from '../layout.service';
 import { NotificationComponent } from './notification.component';
 
 export const environment: ApplicationConfig = {
-  appName: 'Fullerstack',
+  appName: 'playitforward',
   production: false,
   log: {
     enabled: true,

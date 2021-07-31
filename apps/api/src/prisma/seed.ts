@@ -60,7 +60,7 @@ async function main() {
   });
 
   const rachelData = {
-    email: 'rachel@fullerstack.net',
+    email: 'rachel@playitforward.io',
     username: 'RachelGreen',
     firstName: 'Rachel',
     lastName: 'Green',
@@ -73,13 +73,13 @@ async function main() {
   };
 
   const rachelTheSuperuser = await prisma.user.upsert({
-    where: { email: 'rachel@fullerstack.net' },
+    where: { email: 'rachel@playitforward.io' },
     update: rachelData,
     create: rachelData,
   });
 
   const monicaData = {
-    email: 'monica@fullerstack.net',
+    email: 'monica@playitforward.io',
     username: 'MonicaGeller',
     firstName: 'Monica',
     lastName: 'Geller',
@@ -92,13 +92,13 @@ async function main() {
   };
 
   const monicaTheAdmin = await prisma.user.upsert({
-    where: { email: 'monica@fullerstack.net' },
+    where: { email: 'monica@playitforward.io' },
     update: monicaData,
     create: monicaData,
   });
 
   const joeyData = {
-    email: 'joey@fullerstack.net',
+    email: 'joey@playitforward.io',
     username: 'JoeyTribbiani',
     firstName: 'Joey',
     lastName: 'Tribbiani',
@@ -117,13 +117,13 @@ async function main() {
   };
 
   const joeyTheStaff = await prisma.user.upsert({
-    where: { email: 'joey@fullerstack.net' },
+    where: { email: 'joey@playitforward.io' },
     update: joeyData,
     create: joeyData,
   });
 
   const rossData = {
-    email: 'ross@fullerstack.net',
+    email: 'ross@playitforward.io',
     username: 'RossGeller',
     firstName: 'Ross',
     lastName: 'Geller',
@@ -141,13 +141,13 @@ async function main() {
   };
 
   const rossTheUser = await prisma.user.upsert({
-    where: { email: 'ross@fullerstack.net' },
+    where: { email: 'ross@playitforward.io' },
     update: rossData,
     create: rossData,
   });
 
   const chandlerData = {
-    email: 'chandler@fullerstack.net',
+    email: 'chandler@playitforward.io',
     username: 'ChandlerBing',
     firstName: 'Chandler',
     lastName: 'Bing',
@@ -165,13 +165,13 @@ async function main() {
   };
 
   const chandlerTheUser = await prisma.user.upsert({
-    where: { email: 'chandler@fullerstack.net' },
+    where: { email: 'chandler@playitforward.io' },
     update: chandlerData,
     create: chandlerData,
   });
 
   const phoebeData = {
-    email: 'phoebe@fullerstack.net',
+    email: 'phoebe@playitforward.io',
     username: 'PhoebeBuffay',
     firstName: 'Phoebe',
     lastName: 'Buffay',
@@ -189,7 +189,7 @@ async function main() {
   };
 
   const phoebeTheUser = await prisma.user.upsert({
-    where: { email: 'phoebe@fullerstack.net' },
+    where: { email: 'phoebe@playitforward.io' },
     update: phoebeData,
     create: phoebeData,
   });

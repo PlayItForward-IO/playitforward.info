@@ -8,7 +8,7 @@
 
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { MsgService } from '@fullerstack/ngx-msg';
+import { MsgService } from '@playitforward/ngx-msg';
 
 @NgModule({
   imports: [CommonModule],

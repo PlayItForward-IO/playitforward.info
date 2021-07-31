@@ -8,7 +8,7 @@
 
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { MsgModule, MsgService } from '@fullerstack/ngx-msg';
+import { MsgModule, MsgService } from '@playitforward/ngx-msg';
 
 import { AuthService } from './auth.service';
 

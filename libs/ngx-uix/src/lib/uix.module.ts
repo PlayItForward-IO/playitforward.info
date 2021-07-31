@@ -8,7 +8,7 @@
 
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { MaterialService } from '@fullerstack/ngx-material';
+import { MaterialService } from '@playitforward/ngx-material';
 
 import { UixService } from './uix.service';
 

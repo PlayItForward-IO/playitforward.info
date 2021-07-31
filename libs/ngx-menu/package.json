@@ -1,8 +1,8 @@
 {
   "version": "0.0.1",
-  "name": "@fullerstack/ngx-menu",
+  "name": "@playitforward/ngx-menu",
   "description": "A Menu Library for Angular",
-  "homepage": "https://github.com/neekware/fullerstack/blob/main/libs/ngx-menu/README.md",
+  "homepage": "https://github.com/neekware/playitforward/blob/main/libs/ngx-menu/README.md",
   "keywords": [
     "ng",
     "angular",

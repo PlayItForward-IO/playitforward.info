@@ -1,8 +1,8 @@
 {
   "version": "0.0.1",
-  "name": "@fullerstack/ngx-gtag",
+  "name": "@playitforward/ngx-gtag",
   "description": "A simple gTag module for Angular applications",
-  "homepage": "https://github.com/neekware/fullerstack/blob/main/libs/ngx-gtag/README.md",
+  "homepage": "https://github.com/neekware/playitforward/blob/main/libs/ngx-gtag/README.md",
   "keywords": [
     "google",
     "analytics",

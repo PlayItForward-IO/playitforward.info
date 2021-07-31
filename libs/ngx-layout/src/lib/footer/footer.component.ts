@@ -7,18 +7,18 @@
  */
 
 import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
-import { i18nExtractor as _ } from '@fullerstack/ngx-i18n';
+import { i18nExtractor as _ } from '@playitforward/ngx-i18n';
 
 import { FooterItem } from './footer.model';
 
 @Component({
-  selector: 'fullerstack-footer',
+  selector: 'playitforward-footer',
   templateUrl: './footer.component.html',
   styleUrls: ['./footer.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class FooterComponent {
-  @Input() appName = 'Fullerstack';
+  @Input() appName = 'playitforward';
 
   today = new Date();
   footers: FooterItem[] = [
@@ -31,9 +31,10 @@ export class FooterComponent {
           icon: 'at',
         },
         {
-          name: _('COMMON.BLOG'),
-          link: '/blog',
-          icon: 'rss-box',
+          name: _('COMMON.GITHUB'),
+          link: 'https://github.com/PlayItForward-IO',
+          icon: 'github',
+          external: true,
         },
       ],
     },
@@ -48,14 +49,14 @@ export class FooterComponent {
         },
         {
           name: _('SOCIAL.TWITTER'),
-          link: 'https://twitter.com',
+          link: 'https://twitter.com/PlayItFWD_Token',
           external: true,
           icon: 'twitter',
         },
       ],
     },
     {
-      type: _('COMMON.COMPANY'),
+      type: _('COMMON.PROJECT'),
       links: [
         {
           name: _('COMMON.TERMS_CONDITIONS'),

@@ -6,11 +6,11 @@
  * that can be found at http://neekware.com/license/PRI.html
  */
 
-import { ApiError } from '@fullerstack/agx-dto';
-import { AUTH_ROLE_RESTRICTION_MATRIX } from '@fullerstack/nsx-auth';
-import { MailerService } from '@fullerstack/nsx-mailer';
-import { PrismaService } from '@fullerstack/nsx-prisma';
 import { ForbiddenException, Injectable } from '@nestjs/common';
+import { ApiError } from '@playitforward/agx-dto';
+import { AUTH_ROLE_RESTRICTION_MATRIX } from '@playitforward/nsx-auth';
+import { MailerService } from '@playitforward/nsx-mailer';
+import { PrismaService } from '@playitforward/nsx-prisma';
 import { User } from '@prisma/client';
 
 import { UserSelfUpdateInput, UserWhereUniqueInput } from './user.model';

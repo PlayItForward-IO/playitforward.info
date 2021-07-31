@@ -1,4 +1,4 @@
-# @fullerstack/ngx-i18n <img style="margin-bottom: -6px" width="30" src="../../libs/agx-assets/src/lib/images/tech/fullerstack-x250.png">
+# @playitforward/ngx-i18n <img style="margin-bottom: -6px" width="30" src="../../libs/agx-assets/src/lib/images/tech/playitforward-x250.png">
 
 **A simple translation library for Angular applications**
 
@@ -14,18 +14,18 @@
 Dealing with translation can be very hard especially if you don't want to publish different version of your application for each language you support.
 In that case `ngx-translate` is a great library to use. This packages encapsulates the `ngx-translate` library and make it a bit easier to deploy.
 
-**@fullerstack/ngx-i18n** attempts to streamline the translation of your application, while promoting DRY **DRY**.
+**@playitforward/ngx-i18n** attempts to streamline the translation of your application, while promoting DRY **DRY**.
 
 # How to install
 
-    npm i @fullerstack/ngx-i18n |OR| yarn add @fullerstack/ngx-i18n
+    npm i @playitforward/ngx-i18n |OR| yarn add @playitforward/ngx-i18n
 
 # How to use
 
 ```typescript
 // In your environment{prod,staging}.ts
 
-import { ApplicationCfg } from '@fullerstack/ngx-config';
+import { ApplicationCfg } from '@playitforward/ngx-config';
 
 export const environment: ApplicationCfg = {
   production: false,
@@ -64,7 +64,7 @@ export const environment: ApplicationCfg = {
 ```typescript
 // In your app.component.ts
 
-import { ConfigModule } from '@fullerstack/ngx-config';
+import { ConfigModule } from '@playitforward/ngx-config';
 import { environment } from '../environments/environment';
 
 @NgModule({
@@ -82,14 +82,14 @@ export class AppModule {}
 ```typescript
 // In your app.component.ts
 import { Component } from '@angular/core';
-import { I18nService } from '@fullerstack/ngx-i18n';
+import { I18nService } from '@playitforward/ngx-i18n';
 
 @Component({
-  selector: 'fullerstack-root',
+  selector: 'playitforward-root',
   template: `<h1>{{ 'COMMON.WELCOME' | translate }} to {{ title }}!</h1>`,
 })
 export class AppComponent {
-  title = 'Fullerstack';
+  title = 'PlayItForward';
   constructor(i18n: I18nService) {}
 }
 ```
@@ -119,15 +119,15 @@ Supported language translations in the `/assets/ngx-i18n` directory of your appl
 ```typescript
 // In your app.component.ts
 import { Component } from '@angular/core';
-import { I18nService } from '@fullerstack/ngx-i18n';
+import { I18nService } from '@playitforward/ngx-i18n';
 
 @Component({
-  selector: 'fullerstack-root',
+  selector: 'playitforward-root',
   template: `<h1>{{ 'COMMON.WELCOME' | translate }} to {{ title }}!</h1>`,
 })
 export class AppComponent {
   direction = 'ltr';
-  title = 'Fullerstack';
+  title = 'PlayItForward';
   constructor(public i18n: I18nService) {
     // translate in ts files
     i18n.xlate.get('COMMON.WELCOME').subscribe((res: string) => {
@@ -159,7 +159,7 @@ export class AppComponent {
 
 # License
 
-Released under a ([MIT](https://raw.githubusercontent.com/neekware/fullerstack/main/LICENSE)) license.
+Released under a ([MIT](https://raw.githubusercontent.com/neekware/playitforward/main/LICENSE)) license.
 
 # Version
 
@@ -169,11 +169,11 @@ X.Y.Z Version
     `MINOR` version -- adding functionality in a backwards-compatible manner
     `PATCH` version -- making backwards-compatible bug fixes
 
-[status-image]: https://github.com/neekware/fullerstack/actions/workflows/ci.yml/badge.svg
-[status-link]: https://github.com/neekware/fullerstack/actions/workflows/ci.yml
-[version-image]: https://img.shields.io/npm/v/@fullerstack/ngx-i18n.svg
-[version-link]: https://www.npmjs.com/package/@fullerstack/ngx-i18n
-[coverage-image]: https://coveralls.io/repos/neekware/fullerstack/badge.svg
-[coverage-link]: https://coveralls.io/r/neekware/fullerstack
-[download-image]: https://img.shields.io/npm/dm/@fullerstack/ngx-i18n.svg
-[download-link]: https://www.npmjs.com/package/@fullerstack/ngx-i18n
+[status-image]: https://github.com/neekware/playitforward/actions/workflows/ci.yml/badge.svg
+[status-link]: https://github.com/neekware/playitforward/actions/workflows/ci.yml
+[version-image]: https://img.shields.io/npm/v/@playitforward/ngx-i18n.svg
+[version-link]: https://www.npmjs.com/package/@playitforward/ngx-i18n
+[coverage-image]: https://coveralls.io/repos/neekware/playitforward/badge.svg
+[coverage-link]: https://coveralls.io/r/neekware/playitforward
+[download-image]: https://img.shields.io/npm/dm/@playitforward/ngx-i18n.svg
+[download-link]: https://www.npmjs.com/package/@playitforward/ngx-i18n

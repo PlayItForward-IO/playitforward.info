@@ -6,8 +6,8 @@
  * that can be found at http://neekware.com/license/PRI.html
  */
 
-import type { HealthCheck } from '@fullerstack/agx-dto';
 import { Controller, Get } from '@nestjs/common';
+import type { HealthCheck } from '@playitforward/agx-dto';
 
 import { AppService } from './app.service';
 

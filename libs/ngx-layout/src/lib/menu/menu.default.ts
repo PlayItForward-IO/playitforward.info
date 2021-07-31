@@ -6,8 +6,8 @@
  * that can be found at http://neekware.com/license/PRI.html
  */
 
-import { i18nExtractor as _ } from '@fullerstack/ngx-i18n';
-import { MenuItem } from '@fullerstack/ngx-menu';
+import { i18nExtractor as _ } from '@playitforward/ngx-i18n';
+import { MenuItem } from '@playitforward/ngx-menu';
 
 export const layoutMenuTree: MenuItem[] = [
   {
@@ -101,14 +101,14 @@ export const layoutMenuTree: MenuItem[] = [
     ],
   },
   {
-    name: _('COMMON.YAHOO_FINANCE'),
-    icon: 'google-analytics',
-    link: 'https://yahoo.com',
+    name: _('SOCIAL.TWITTER'),
+    icon: 'twitter',
+    link: 'https://twitter.com/PlayItFWD_Token',
     external: true,
-    disabled: true,
+    target: '_blank',
   },
   {
-    name: _('COMMON.YOUTUBE'),
+    name: _('SOCIAL.YOUTUBE'),
     icon: 'youtube',
     link: 'https://youtube.com',
     external: true,

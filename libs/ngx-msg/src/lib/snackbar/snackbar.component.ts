@@ -13,7 +13,7 @@ import { DeepReadonly } from 'ts-essentials';
 import { SnackbarData, SnackbarDataDefault, SnackbarType } from './snackbar.model';
 
 @Component({
-  selector: 'fullerstack-snackbar',
+  selector: 'playitforward-snackbar',
   templateUrl: './snackbar.component.html',
   styleUrls: ['./snackbar.component.scss'],
   encapsulation: ViewEncapsulation.Emulated,

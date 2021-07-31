@@ -6,7 +6,7 @@
  * that can be found at http://neekware.com/license/PRI.html
  */
 
-import { User } from '@fullerstack/ngx-gql/schema';
+import { User } from '@playitforward/ngx-gql/schema';
 
 /**
  * User config declaration
