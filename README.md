@@ -22,7 +22,7 @@ PayItForward (PFWD)© is a decentralized digital token created by developers for
 
 ## MORE INFO
 
-### Whitepaper
+### Whitepaper (PlayItForward `PFWD`)
 
 - [Whitepaper](libs/agx-assets/src/lib/docs/PlayItForward.pdf)
 
