@@ -1,4 +1,4 @@
-# playitforward <img style="margin-bottom: -6px" width="30" src="libs/agx-assets/src/lib/images/tech/playitforward-x250.png">
+# PlayForward.IO Repository <img style="margin-bottom: -6px" width="30" src="libs/agx-assets/src/lib/images/tech/playitforward-x250.png">
 
 [![status-image]][status-link]
 [![coverage-image]][coverage-link]
@@ -6,18 +6,6 @@
 ## Description
 
 This project is a mono-repo for PlayItForward which is an open source dashboard powered by Angular for the frontend and NetJs for the backend.
-
-## Mission
-
-To create an open source dashboard from the ground-up. `Quality of Experience` is the ultimate mission, and that includes simplicity, elegance, quality and performance. `Designed for the future, but built for today!`<br/>
-
-## `Elegance in simplicity`
-
-<img width="auto" src="libs/agx-assets/src/lib/images/misc/login.png">
-
-Screenshots: ([screenshots](FEATURES.md)) // Demo: ( [avidtrader.co](https://app.avidtrader.co/) )
-
-<br/>
 
 ## Features
 
@@ -185,7 +173,7 @@ X.Y.Z Version
 --------------------------------------------------------------------------------
  TypeScript             380        20284         2302         3865        14117
  JSON                   140         4910            0            0         4910
- Markdown               104         2667          704            0         1963
+ Markdown               103         2469          654            0         1815
  HTML                    33         1444          113            5         1326
  Sass                    55         1455          141           35         1279
  JavaScript              34          629           24           48          557
@@ -194,13 +182,13 @@ X.Y.Z Version
  SQL                      1           80           15           13           52
  Toml                     1            3            0            2            1
 --------------------------------------------------------------------------------
- Total                  754        31662         3316         3968        24378
+ Total                  753        31464         3266         3968        24230
 --------------------------------------------------------------------------------
 ```
 
 ## Sponsors
 
-[ [Neekware Inc.](http://neekware.com) ] [ [Nx](https://nx.dev) ]
+[ [PlayItForward](http://playitforward.io) ]
 
 [status-image]: https://github.com/neekware/playitforward/actions/workflows/ci.yml/badge.svg
 [status-link]: https://github.com/neekware/playitforward/actions/workflows/ci.yml
