@@ -59,6 +59,6 @@ PayItForward (PFWD)© is a decentralized digital token created by developers for
   - Select the other token you have
   - Click the amounts and swap
 
-## DISCLOSURE
+## DISCLOSURE (please read)
 
 By owning PlayItForward Tokens, you acknowledge and agree that PlayItForward Tokens are not securities nor investment contracts. You also agree to hold the team harmless and not liable for any losses or taxes you may incur. Please note that PlayItForward is a community driven DeFi Ecosystem and not a registered digital currency, so please always make sure that you are in compliance with your local laws and regulations before you make any transaction. Digital tokens are not legal tender and not investments. Crypto market is highly risky and speculative in nature.
