@@ -3,20 +3,22 @@
 
 <img style="display: block; margin: 20px auto" width="300" src="libs/agx-assets/src/lib/images/tech/playitforward-x250.png">
 
-PayItForward (PFWD)© is a decentralized digital token created by developers for developers. PlayItForward is used as a digital token to support open-source projects. It can also be used to support content creators such as YouTubers, Podcasters, or simply anyone who deserves a helping-hand in achieving a greater good, for the benefit of their communities.
+PayItForward (PFWD)© is a decentralized digital token created by developers for developers. PlayItForward is used as a digital token to support open-source projects. It can also be used to support those who create `positive` and `meaningful` content, or simply anyone who deserves a helping-hand in achieving a greater good, for the benefit of their communities.
 
 ## Mission
 
-- PlayItForward Token was founded by an entrepreneur software architect, as a social experiment; not with the intention of trading for quick profits, but created as it needed to exist.
-- PlayItForward's main intention is to be seen as a “Million Acts Of Kindness” Token.
+- PlayItForward Token was founded by an entrepreneur software architect (`aka AvidCoder`), as a social experiment; not with the intention of trading for quick profits. It was created as the token `needed to exist`.
+- PlayItForward's main intention is to be seen as a `“Million Acts Of Kindness”` Token.
 - PlayItForward enables millions of micro-transactions targeting the right cause, potentially magnifying the impact in a positive way.
 
 ## PlayItForward Token Properties
 
 - PlayItForward is pegged to USDC at a minimum value of $0.01 USDC per token, with a fixed supply of 1,000,000 tokens.
-- PlayItForward’s initial total market cap is $10,000 USDC. This is to guarantee the minimum value, and to deter token manipulation.
-- PlayItForward's source code guarantees no more tokens can ever be created, making it a deflationary token by nature. PlayItForward is pegged to USDC with the starting value of $0.01 USDC and its value can only increase over time due to possible scarcity.
-- PlayItForward is a decentralized token, as it is secured by millions of computers worldwide on the Ethereum network. It can be used to store value due to its limited supply, making its upside unlimited. It can also be transferred in tiny fractional amounts, making it a great vehicle for micro-transactions.
+- PlayItForward's source code guarantees no more tokens can ever be created, making it a deflationary token by nature.
+- PlayItForward is pegged to USDC with a fixed supply and its value can only increase over time due to possible scarcity.
+- PlayItForward is a decentralized token, as it is secured by millions of computers worldwide on the Ethereum network.
+- PlayForward can be used to store value due to its limited supply, making its upside unlimited.
+- PlayItForward can be transferred in tiny fractional amounts, making it a great vehicle for micro-transactions.
 
 ## MORE INFO
 
