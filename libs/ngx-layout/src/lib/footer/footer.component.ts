@@ -31,9 +31,10 @@ export class FooterComponent {
           icon: 'at',
         },
         {
-          name: _('COMMON.BLOG'),
-          link: '/blog',
-          icon: 'rss-box',
+          name: _('COMMON.GITHUB'),
+          link: 'https://github.com/PlayItForward-IO',
+          icon: 'github',
+          external: true,
         },
       ],
     },
@@ -48,7 +49,7 @@ export class FooterComponent {
         },
         {
           name: _('SOCIAL.TWITTER'),
-          link: 'https://twitter.com',
+          link: 'https://twitter.com/PlayItFWD_Token',
           external: true,
           icon: 'twitter',
         },
