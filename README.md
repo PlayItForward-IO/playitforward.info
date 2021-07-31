@@ -1,7 +1,7 @@
 <p style="text-align: center; font-size:30px">Play It Forward</p>
 <p style="text-align: center; font-size:30px">"Million Acts Of Kindness" Token</p>
 
-<img style="display: block; margin: 20px auto" width="300" src="assets/images/logos/logo-medium.png">
+<img style="display: block; margin: 20px auto" width="300" src="libs/agx-assets/src/lib/images/tech/playitforward-x250.png">
 
 PayItForward (PFWD)© is a decentralized digital token created by developers for developers. PlayItForward is used as a digital token to support open-source projects. It can also be used to support content creators such as YouTubers, Podcasters, or simply anyone who deserves a helping-hand in achieving a greater good, for the benefit of their communities.
 
