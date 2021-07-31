@@ -90,7 +90,7 @@ npx create-nx-workspace playitforward
 
 ```bash
 # Clone the repo
-git clone https://github.com/neekware/playitforward.git
+git clone https://github.com/PlayItForward-IO/playitforward.io.git
 
 # Install the dependencies
 cd playitforward
@@ -156,7 +156,7 @@ yarn affected:dep-graph --base=<branch-name> --head=HEAD
 
 ## License
 
-- Released under a ([MIT](https://raw.githubusercontent.com/neekware/playitforward/main/LICENSE)) license.
+- Released under a ([MIT](https://raw.githubusercontent.com/PlayItForward-IO/playitforward.io/main/LICENSE)) license.
 
 ## Version
 
@@ -190,9 +190,9 @@ X.Y.Z Version
 
 [ [PlayItForward](http://playitforward.io) ]
 
-[status-image]: https://github.com/neekware/playitforward/actions/workflows/ci.yml/badge.svg
-[status-link]: https://github.com/neekware/playitforward/actions/workflows/ci.yml
-[version-image]: https://img.shields.io/npm/v/@playitforward.svg
-[version-link]: https://www.npmjs.com/settings/playitforward/packages
-[coverage-image]: https://coveralls.io/repos/neekware/playitforward/badge.svg
-[coverage-link]: https://coveralls.io/r/neekware/playitforward
+[status-image]: https://github.com/PlayItForward-IO/playitforward.io.io/actions/workflows/ci.yml/badge.svg
+[status-link]: https://github.com/PlayItForward-IO/playitforward.io.io/actions/workflows/ci.yml
+[version-image]: https://img.shields.io/npm/v/@playitforward.io.svg
+[version-link]: https://www.npmjs.com/settings/playitforward.io/packages
+[coverage-image]: https://coveralls.io/repos/PlayItForward-IO/playitforward.io.io/badge.svg
+[coverage-link]: https://coveralls.io/r/PlayItForward-IO/playitforward.io
