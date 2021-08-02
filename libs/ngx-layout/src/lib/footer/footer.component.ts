@@ -42,6 +42,12 @@ export class FooterComponent {
           external: true,
           icon: 'twitter',
         },
+        {
+          name: _('SOCIAL.INSTAGRAM'),
+          link: 'https://www.instagram.com/playitforwardtoken/',
+          external: true,
+          icon: 'instagram',
+        },
         // {
         //   name: _('SOCIAL.LINKEDIN'),
         //   link: 'https://www.linkedin.com/groups/13989324/',
