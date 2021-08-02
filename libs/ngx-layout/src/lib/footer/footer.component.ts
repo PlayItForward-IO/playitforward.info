@@ -69,7 +69,7 @@ export class FooterComponent {
         {
           name: _('COMMON.TERMS_CONDITIONS'),
           link: '/terms',
-          icon: 'clipboard-text-outline',
+          icon: 'script-text-outline',
         },
         {
           name: _('COMMON.TERMS_CONDITIONS'),
