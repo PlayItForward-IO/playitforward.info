@@ -26,11 +26,6 @@ export class FooterComponent {
       type: _('COMMON.RESOURCES'),
       links: [
         {
-          name: _('COMMON.CONTACT_US'),
-          link: '/contact/us',
-          icon: 'at',
-        },
-        {
           name: _('COMMON.GITHUB'),
           link: 'https://github.com/PlayItForward-IO',
           icon: 'github',
@@ -42,32 +37,32 @@ export class FooterComponent {
       type: _('COMMON.SOCIAL'),
       links: [
         {
-          name: _('SOCIAL.FACEBOOK'),
-          link: 'https://facebook.com',
-          external: true,
-          icon: 'facebook',
-        },
-        {
           name: _('SOCIAL.TWITTER'),
           link: 'https://twitter.com/PlayItFWD_Token',
           external: true,
           icon: 'twitter',
         },
+        // {
+        //   name: _('SOCIAL.LINKEDIN'),
+        //   link: 'https://www.linkedin.com/groups/13989324/',
+        //   external: true,
+        //   icon: 'linkedin',
+        // },
       ],
     },
     {
-      type: _('COMMON.PROJECT'),
+      type: _('COMMON.TERMS_CONDITIONS'),
       links: [
         {
           name: _('COMMON.TERMS_CONDITIONS'),
           link: '/terms',
           icon: 'clipboard-text-outline',
         },
-        {
-          name: _('COMMON.PRIVACY'),
-          link: '/privacy',
-          icon: 'clipboard-text-outline',
-        },
+        // {
+        //   name: _('COMMON.PRIVACY'),
+        //   link: '/privacy',
+        //   icon: 'clipboard-text-outline',
+        // },
       ],
     },
   ];

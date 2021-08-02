@@ -609,7 +609,7 @@ export interface AuthUserVerifyInput {
 }
 
 export interface SystemContactUsInput {
-  content: string;
+  body: string;
   email: string;
   name: string;
   subject: string;

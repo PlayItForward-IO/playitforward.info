@@ -26,28 +26,25 @@ console.log('Generate GraphQL config/schema files ...');
 
 async function downloadSchemaDocument() {
   console.log('Download Schema Document ...');
-  await execute(`mkdir -p ${tmpDir}`, isDebug);
-  await execute(`rm -f ${gqlDocumentPath}`, isDebug);
-  await execute(
-    `${apollo} schema:download \
-    --endpoint=${gqlEndpoint} \
-    ${gqlDocumentPath}`,
-    isDebug
-  );
+  await execute(`mkdir -p ${tmpDir}`, { debug: isDebug });
+  await execute(`rm -f ${gqlDocumentPath}`, { debug: isDebug });
+  await execute(`${apollo} schema:download --endpoint=${gqlEndpoint} ${gqlDocumentPath}`, {
+    debug: isDebug,
+  });
 }
 
 async function generateSchemaFile() {
   console.log('Generate Schema File ...');
-  execute(`rm -f ${gqlSchemaPathTemp}`, isDebug);
+  execute(`rm -f ${gqlSchemaPathTemp}`, { debug: isDebug });
   await execute(
     `${apollo} client:codegen ${gqlSchemaPathTemp} --localSchemaFile=${gqlDocumentPath} --includes="${gqlBlobPattern}" --target typescript --outputFlat `,
-    isDebug
+    { debug: isDebug }
   );
 }
 
 async function saveSchemaFile() {
-  await execute(`mv -f ${gqlSchemaPathTemp} ${gqlSchemaPath}`, isDebug);
-  await execute(`rm -f ${gqlSchemaPathTemp}`, isDebug);
+  await execute(`mv -f ${gqlSchemaPathTemp} ${gqlSchemaPath}`, { debug: isDebug });
+  await execute(`rm -f ${gqlSchemaPathTemp}`, { debug: isDebug });
 }
 
 async function main() {

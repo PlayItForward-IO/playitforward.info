@@ -13,8 +13,11 @@
   .message {
     font-size: 1.3rem;
   }
-  button {
+
+  a {
     margin-top: 22px;
+    color: black !important;
+    padding: 0px;
   }
 }
 
@@ -37,8 +40,11 @@
     font-size: 0.9rem;
     margin-top: 0px !important;
   }
-  button {
-    margin-top: 5px;
+
+  a {
+    margin-top: 11px;
+    color: black !important;
+    padding: 0px;
   }
 }
 
@@ -80,4 +86,14 @@
   opacity: 0.87;
   line-height: 28px;
   padding: 0;
+}
+
+.button-image {
+  width: 57px;
+  margin-top: -23px !important;
+  margin-bottom: -17px !important;
+}
+
+.fs-image-flip {
+  transform: scaleX(-1);
 }
