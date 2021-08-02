@@ -11,6 +11,8 @@ export interface FooterLinks {
   link: string;
   icon?: string;
   external?: boolean;
+  target?: string;
+  email?: boolean;
 }
 
 export interface FooterItem {

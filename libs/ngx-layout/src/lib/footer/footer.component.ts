@@ -31,6 +31,13 @@ export class FooterComponent {
           icon: 'github',
           external: true,
         },
+        {
+          name: _('COMMON.WHITEPAPER'),
+          link: '/assets/docs/PlayItForward.pdf',
+          icon: 'clipboard-text-outline',
+          target: '_blank',
+          external: true,
+        },
       ],
     },
     {
@@ -57,12 +64,18 @@ export class FooterComponent {
       ],
     },
     {
-      type: _('COMMON.TERMS_CONDITIONS'),
+      type: _('COMMON.ORGANIZATION'),
       links: [
         {
           name: _('COMMON.TERMS_CONDITIONS'),
           link: '/terms',
           icon: 'clipboard-text-outline',
+        },
+        {
+          name: _('COMMON.TERMS_CONDITIONS'),
+          link: 'info@playitforward.io',
+          icon: 'email',
+          email: true,
         },
         // {
         //   name: _('COMMON.PRIVACY'),
