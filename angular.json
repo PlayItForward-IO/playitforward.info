@@ -216,6 +216,7 @@
             "tsConfig": "apps/playitforward/tsconfig.app.json",
             "assets": [
               "apps/playitforward/src/favicon.ico",
+              "apps/playitforward/src/robots.txt",
               "apps/playitforward/src/assets",
               {
                 "glob": "**/*",
@@ -236,6 +237,11 @@
                 "glob": "**/*.svg",
                 "input": "node_modules/@mdi/angular-material",
                 "output": "assets/fonts"
+              },
+              {
+                "glob": "**/*",
+                "input": "libs/agx-assets/src/lib/docs",
+                "output": "assets/docs"
               }
             ],
             "styles": [
