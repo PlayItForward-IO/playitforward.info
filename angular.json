@@ -151,10 +151,6 @@
                 {
                   "replace": "apps/api/src/environments/environment.ts",
                   "with": "apps/api/src/environments/environment.prod.ts"
-                },
-                {
-                  "replace": "apps/playitforward/src/favicon.ico",
-                  "with": "libs/agx-assets/src/lib/images/icons/favicon.ico"
                 }
               ]
             },
@@ -166,10 +162,6 @@
                 {
                   "replace": "apps/api/src/environments/environment.ts",
                   "with": "apps/api/src/environments/environment.ci.ts"
-                },
-                {
-                  "replace": "apps/playitforward/src/favicon.ico",
-                  "with": "libs/agx-assets/src/lib/images/icons/favicon.ico"
                 }
               ]
             }
@@ -268,10 +260,6 @@
                 {
                   "replace": "apps/playitforward/src/environments/environment.ts",
                   "with": "apps/playitforward/src/environments/environment.prod.ts"
-                },
-                {
-                  "replace": "apps/playitforward/src/favicon.ico",
-                  "with": "libs/agx-assets/src/lib/images/icons/favicon.ico"
                 }
               ],
               "optimization": true,
@@ -299,10 +287,6 @@
                 {
                   "replace": "apps/playitforward/src/environments/environment.ts",
                   "with": "apps/playitforward/src/environments/environment.ci.ts"
-                },
-                {
-                  "replace": "apps/playitforward/src/favicon.ico",
-                  "with": "libs/agx-assets/src/lib/images/icons/favicon.ico"
                 }
               ],
               "optimization": true,
