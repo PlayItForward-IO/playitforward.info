@@ -189,7 +189,7 @@ X.Y.Z Version
 
 ## Sponsors
 
-[ [PlayItForward](http://playitforward.io) ]
+[ [PlayItForward](https://playitforward.io/ ]
 
 [status-image]: https://github.com/PlayItForward-IO/playitforward.io.io/actions/workflows/ci.yml/badge.svg
 [status-link]: https://github.com/PlayItForward-IO/playitforward.io.io/actions/workflows/ci.yml

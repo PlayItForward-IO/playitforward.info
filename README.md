@@ -29,7 +29,7 @@ PayItForward (PFWD)© is a decentralized digital token created by developers for
 ### Website, Email
 
 - info@playitforward.io
-- [http://playitforward.io](http://playitforward.io)
+- [https://playitforward.io/](https://playitforward.io/)
 
 ### Social Networks
 
