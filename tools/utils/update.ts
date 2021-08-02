@@ -32,7 +32,7 @@ async function update2Latest(pkgName: string, devDep = true) {
   }
 
   console.log(`Updating ${pkgName} ...`);
-  await execute(cmd, !DEBUG);
+  await execute(cmd, { debug: DEBUG });
 }
 
 async function updateDependencies() {
