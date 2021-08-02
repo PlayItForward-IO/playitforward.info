@@ -3,9 +3,16 @@
     <img src="/assets/images/logos/logo-{{ logoSize }}.png" />
     <h1 class="headline">{{ 'APP.HEADLINE' | translate }}</h1>
     <h3 class="message">{{ 'APP.SUB_HEADLINE' | translate }}</h3>
-    <button mat-raised-button *ngIf="!auth.state.isLoggedIn" (click)="auth.goTo(layout.auth.authUrls.loginUrl)">
-      {{ 'COMMON.GET_STARTED' | translate }}
-    </button>
+    <a
+      class="fs-button"
+      mat-raised-button
+      target="_blank"
+      href="https://app.uniswap.org/#/swap?outputCurrency=0x20b19196dfa0454f142a38ea2e3b7077796de050"
+    >
+      <img class="button-image fs-image-flip" src="/assets/images/misc/uniswap.png" />
+      {{ 'COMMON.GET_UNISWAP' | translate }}
+      <img class="button-image" src="/assets/images/misc/uniswap.png" />
+    </a>
   </div>
 </div>
 

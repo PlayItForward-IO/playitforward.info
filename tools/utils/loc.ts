@@ -21,7 +21,7 @@ const excludeDirs = ['node_modules', 'tmp', 'coverage', 'dist', 'gql.schema.ts',
  * https://github.com/renke/markdown-replace-section/issues/1
  */
 async function main() {
-  const loc = await execute(`loc . --exclude ${excludeDirs.join(' ')}`, !DEBUG);
+  const loc = await execute(`loc . --exclude ${excludeDirs.join(' ')}`, { debug: DEBUG });
   let readMe = fs.readFileSync('README_TECH.md', 'utf-8');
 
   readMe = replaceSection(readMe, 'Lines of Code', '```txt<br>' + loc + '```', false);

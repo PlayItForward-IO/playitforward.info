@@ -26,6 +26,7 @@ import { PasswordResetRequestComponent } from './pages/password-reset-request/pa
 import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 import { ProfileUpdateComponent } from './pages/profile-update/profile-update.component';
 import { SignupComponent } from './pages/signup/signup.component';
+import { TermsComponent } from './pages/terms/terms.component';
 import { TrendComponent } from './pages/trend/trend.component';
 import { UserVerifyComponent } from './pages/user-verify/user-verify.component';
 
@@ -42,6 +43,13 @@ export const AppRoutes: Routes = [
     component: AboutComponent,
     data: {
       title: _('APP.ABOUT'),
+    },
+  },
+  {
+    path: 'terms',
+    component: TermsComponent,
+    data: {
+      title: _('COMMON.TERMS_CONDITIONS'),
     },
   },
   {

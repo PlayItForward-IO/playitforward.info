@@ -1,0 +1,19 @@
+<mat-toolbar class="fs-page-header" color="primary" fxLayoutAlign="center center">
+  <h2>{{ 'COMMON.TERMS_CONDITIONS' | translate }}</h2>
+</mat-toolbar>
+
+<div class="fs-page-content" fxLayout="column">
+  <div fxFlex fxLayout="column" class="terms">
+    <div *ngFor="let terms of termsList">
+      <h3 class="">{{ terms.title | translate }}</h3>
+      <p class="">{{ terms.description | translate }}</p>
+    </div>
+  </div>
+
+  <div fxFlex fxLayout="column" class="terms" fxLayoutAlign="center center">
+    <button mat-raised-button color="primary" (click)="auth.goTo('/')">
+      {{ 'COMMON.HOME' | translate }}
+    </button>
+  </div>
+  <div fxFlex></div>
+</div>

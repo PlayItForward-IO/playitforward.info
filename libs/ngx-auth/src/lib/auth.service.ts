@@ -101,7 +101,7 @@ export class AuthService implements OnDestroy {
     this.claimSlice();
     this.initState();
     this.subState();
-    this.tokenRefreshRequest$().pipe(first(), takeUntil(this.destroy$)).subscribe();
+    // this.tokenRefreshRequest$().pipe(first(), takeUntil(this.destroy$)).subscribe();
 
     logger.info(
       `[${this.nameSpace}] AuthService ready ... (${

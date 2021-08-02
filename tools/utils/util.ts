@@ -21,23 +21,49 @@ export const distDir = path.resolve(path.join(projDir, 'dist'));
 export const projPkgJson = require(path.join(projDir, 'package.json'));
 
 export const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
+export interface ExecuteOptions {
+  debug?: boolean;
+  dry?: boolean;
+  silent?: boolean;
+}
 
 /**
  * Runs a command, capture and return the output
- * @param script {string} an executable command
+ * @param command {string} an executable command
  */
-export function execute(script: string, debug = false): Promise<any> {
+export function execute(command: string, options?: ExecuteOptions): Promise<any> {
   return new Promise((resolvePromise, rejectPromise) => {
-    childProcess.exec(script, { maxBuffer: 1024 * 1000 }, (error, stdout, stderr) => {
-      if (error) {
-        console.error(error);
-        rejectPromise(stderr);
-      } else {
-        resolvePromise(stdout);
+    if (options?.dry && !options?.silent) {
+      console.log(`Executing: ${command}`);
+      resolvePromise(true);
+    } else {
+      if (options?.debug && !options?.silent) {
+        console.log(`Executing: ${command}`);
       }
-    });
+      childProcess.exec(command, { maxBuffer: 1024 * 1000 }, (error, stdout, stderr) => {
+        if (error) {
+          if (options?.silent !== true) {
+            console.error(error);
+          }
+          rejectPromise(stderr);
+        } else {
+          resolvePromise(stdout);
+        }
+      });
+    }
   });
 }
+
+/**
+ *
+ * @param filepath a path relevant to home directory
+ */
+export const resolveHome = (filepath: string): string => {
+  if (filepath[0] === '~') {
+    return path.join(process.env.HOME, filepath.slice(1));
+  }
+  return filepath;
+};
 
 /**
  * Checks if a file exists
@@ -67,3 +93,16 @@ export function getGlobFiles(globPattern): Promise<string[]> {
     });
   });
 }
+
+export const isCmdValid = async (cmd: string): Promise<boolean> => {
+  return execute(`which ${cmd}`, { silent: true }).then((stdout) => {
+    if (stdout.trim().length === 0) {
+      return Promise.reject(new Error('No output'));
+    }
+    const rNotFound = /^[\w\-]+ not found/g;
+    if (rNotFound.test(cmd)) {
+      return Promise.resolve(false);
+    }
+    return Promise.resolve(true);
+  });
+};
