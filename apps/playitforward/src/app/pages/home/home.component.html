@@ -43,6 +43,58 @@
     </div>
   </div>
 
+  <div class="fs-promo">
+    <div fxLayoutGap="24px" fxLayout="column" fxLayoutAlign="center">
+      <div fxLayout="column" fxLayout.gt-xs="row" fxLayoutGap="20px" fxLayoutAlign="space-evenly center" class="row">
+        <div
+          fxFlex="calc(50% - 8px)"
+          fxFlex.xs="calc(33% - 8px)"
+          class="pitch"
+          [fxFlexOrder.gt-xs]="pitchList.length % 2 ? '2' : '1'"
+          ngClass.xm="small"
+        >
+          <h3 class="title">How to get PFWD tokens?</h3>
+          <div class="description">
+            <ul>
+              <li class="">
+                Create a digital currency wallet, such as
+                <a style="text-decoration: underline" href="https://metamask.io/" target="_blank" rel="noopener">MetaMask</a>.
+              </li>
+              <li class="">
+                Buy <b>ETH</b> or <b>USDC</b> on MetaMask directly. Or send <b>ETH</b> or <b>USDC</b> to your MetaMask wallet via exchanges
+                like <a style="text-decoration: underline" href="https://coinbase.com/" target="_blank" rel="noopener">Coinbase</a>,
+                <a style="text-decoration: underline" href="https://binance.com" target="_blank" rel="noopener">Binance</a>,
+                <a style="text-decoration: underline" href="https://www.kraken.com" target="_blank" rel="noopener">Kraken</a> etc.
+                <a style="text-decoration: underline" href="https://gate.io" target="_blank" rel="noopener">Gate.io</a> etc.
+              </li>
+              <li class="">
+                Connect your wallet to
+                <a
+                  style="text-decoration: underline"
+                  href="https://app.uniswap.org/#/swap?outputCurrency=0x20b19196dfa0454f142a38ea2e3b7077796de050"
+                  target="_blank"
+                  rel="noopener"
+                  >UniSwap</a
+                >
+                and trade your <b>ETH</b> or <b>USDC</b> for PlayItForward (<b>PFWD</b>).
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          fxFlex="calc(50% - 8px)"
+          fxFlex.xs="calc(33% - 8px)"
+          fxLayoutAlign="center"
+          [fxLayoutAlign.gt-xs]="pitchList.length % 2 ? 'end center' : 'start center'"
+          class="image"
+          [fxFlexOrder.gt-xs]="pitchList.length % 2 ? '1' : '2'"
+        >
+          <img src="/assets/images/misc/how2.png" alt="How to get PFWD token" />
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="bottom-get-token" fxLayoutAlign="center center">
     <a
       class="fs-button dark-button"
