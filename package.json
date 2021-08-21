@@ -68,7 +68,8 @@
     "prepare": "husky install",
     "serve:dist": "cd dist/apps/playitforward; open http://localhost:8080; python3 -m http.server 8080",
     "<--------- [ deploy application ] ------->": "deploy application",
-    "deploy": "yarn ts-node ./tools/utils/deploy.ts"
+    "deploy:s3": "yarn ts-node ./tools/utils/deploy.ts",
+    "build:azure": "yarn install && yarn nx build playitforward --prod"
   },
   "importSort": {
     ".js, .ts": {
