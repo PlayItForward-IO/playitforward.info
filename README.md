@@ -26,8 +26,8 @@ PlayItForward (PFWD)© Token was founded by an entrepreneur, as a social experim
 
 ### Website, Email
 
-- info@playitforward.io
-- [https://playitforward.io/](https://playitforward.io/)
+- info@playitforward.info
+- [https://playitforward.info/](https://playitforward.info/)
 
 ### Social Networks
 

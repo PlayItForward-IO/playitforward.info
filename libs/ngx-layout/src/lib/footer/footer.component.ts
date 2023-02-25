@@ -73,7 +73,7 @@ export class FooterComponent {
         },
         {
           name: _('COMMON.TERMS_CONDITIONS'),
-          link: 'info@playitforward.io',
+          link: 'info@playitforward.info',
           icon: 'email',
           email: true,
         },

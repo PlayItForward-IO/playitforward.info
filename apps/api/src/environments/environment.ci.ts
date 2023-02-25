@@ -56,8 +56,8 @@ const i18nConfig: I18nConfig = {
 
 export const environment = {
   siteName: 'PlayItForward',
-  siteUrl: 'https://playitforward.io',
-  siteSupportEmail: 'support@playitforward.io',
+  siteUrl: 'https://playitforward.info',
+  siteSupportEmail: 'support@playitforward.info',
   production: false,
   port: 4401,
   prefix: 'api',

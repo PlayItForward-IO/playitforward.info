@@ -141,7 +141,7 @@ export const environment: ApplicationConfig = {
 tagger.trackPageView({
   page_path: '/',
   page_title: 'Home Page',
-  page_location: 'https://playitforward.io/'
+  page_location: 'https://playitforward.info/'
 });
 
 // or with default options
